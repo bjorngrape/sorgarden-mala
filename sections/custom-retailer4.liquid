@@ -1,0 +1,76 @@
+<h1 class="custom-retail-header"> {{section.settings.header}}</h1>
+<div class="custom-retail-info-wrapper">
+  <ul class="custom-retail-ul">
+    {% for block in section.blocks %}
+    <li>
+      <div class="custom-retail-text-wrapper" data-tags="{{ block.settings.tag }}">
+        <h2 class="custom-retail-name">{{ block.settings.title }}</h2>
+        <p>{{ block.settings.street }}</p>
+        <p>{{ block.settings.zip }}</p>
+        <p>{{ block.settings.tel }}</p>
+        {% unless block.settings.link == '' %}
+        <button class="custom-retail-btn" onclick="(function openWindow() {window.open('{{ block.settings.link }}'); })()">Öppna i Google Maps</button>
+        {% endunless %}
+      </div>
+    </li> 
+    {% endfor %}
+  </ul>
+</div>
+
+<script>
+    function displayImage(id) {
+        window.open(id)
+    }
+</script>
+
+{% schema %}
+{
+    "name": "Kolumn 4",
+    "settings": [
+        {
+            "type":"text",
+            "id": "header",
+            "label": "Välj rubrik",
+            "default": "Kolumn 4"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "text",
+            "name": "Återförsäljare",
+            "settings": [
+                {
+                    "type": "url",
+                    "id": "link",
+                    "label": "Välj url"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Välj rubrik"
+                },
+                {
+                    "type": "text",
+                    "id": "street",
+                    "label": "Välj gata"
+                },
+                {
+                    "type": "text",
+                    "id": "zip",
+                    "label": "Välj postnummer"
+                },
+                {
+                    "type": "text",
+                    "id": "tel",
+                    "label": "Välj telefonnummer"
+                },
+				{
+                   "type": "textarea",
+                   "id": "tag",
+                   "label": "Lägg till taggar för att göra sökning enklare"
+                }
+            ] 
+        }
+    ]
+}
+{% endschema %}

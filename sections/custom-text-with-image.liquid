@@ -1,0 +1,172 @@
+<section class="custom-section-container">
+  <h2 class="custom-section-header">{{section.settings.header}}</h2>
+  <div role="contentinfo" class="custom-section-text">{{section.settings.text }}</div>
+  <div class="custom-section-img-container">
+    {%- for block in section.blocks -%}
+      <img loading="lazy" class="custom-section-img" src="{{block.settings.images | img_url: '200x200'}}" alt="{{block.settings.images.alt}}" />
+    {%- endfor -%}
+  </div>
+</section>
+
+{% javascript %}
+window.addEventListener('scroll', playAnimation)
+
+function playAnimation() {
+  if(document.getElementsByClassName('custom-section-header')[0].getBoundingClientRect().top - window.innerHeight < -100) document.getElementsByClassName('custom-section-header')[0].classList.add('custom-text-animation');
+  if(document.getElementsByClassName('custom-section-text')[0].getBoundingClientRect().top - window.innerHeight < -100) document.getElementsByClassName('custom-section-text')[0].classList.add('custom-text-animation');
+  if(document.getElementsByClassName('custom-section-img-container')[0].getBoundingClientRect().top - window.innerHeight < -100) Array.from(document.getElementsByClassName('custom-section-img')).forEach(e => e.classList.add('custom-rolling-animation'));
+}
+{% endjavascript %}
+
+{% stylesheet %}
+
+.custom-section-container {
+  padding:2em 5%;
+  background-color:#f8f6ed;}
+  
+@media only screen and (min-width:750px) {
+  .custom-section-container {
+    padding:2em 10%;}
+}
+
+.custom-section-header {
+  font-size:2em;
+  text-transform:none;
+  letter-spacing:0.1em;
+  margin:1em 0;
+  opacity:0;}
+
+.custom-section-text {
+  padding-bottom:2em;
+  font-size:1.3em;
+  letter-spacing:1px;
+  line-height:1.6em;
+  opacity:0;}
+
+.custom-section-img:hover {
+  filter:grayscale(0);}
+
+.custom-section-img {
+  width:clamp(75px, 10%, 150px);
+  height:clamp(75px, 10%, 150px);
+  opacity:0;
+  filter:grayscale(1);
+  border-radius:50%;
+  transition:filter 500ms ease-out;}
+
+.custom-section-img-container {
+  display:flex;
+  position:relative;
+  justify-content:space-between;} 
+
+.custom-rolling-animation {
+  animation-name:rolling;
+  animation-duration:750ms;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count:1;
+  animation-fill-mode:forwards;
+  animation-direction:normal;
+  -moz-animation-name:rolling;
+  -moz-animation-duration:750ms;
+  -moz-animation-timing-function:ease-in-out;
+  -moz-animation-iteration-count:1;
+  -moz-animation-fill-mode:forwards;
+  -moz-animation-direction:normal;
+  -o-animation-name:rolling;
+  -o-animation-duration:750ms;
+  -o-animation-timing-function:ease-in-out;
+  -o-animation-iteration-count:1;
+  -o-animation-fill-mode:forwards;
+  -o-animation-direction:normal;
+  -webkit-animation-name:rolling;
+  -webkit-animation-duration:750ms;
+  -webkit-animation-timing-function:ease-in-out;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-direction:normal;
+}
+.custom-rolling-animation:nth-child(1) {
+  animation-delay:0;}
+.custom-rolling-animation:nth-child(2) {
+  animation-delay:150ms;}
+.custom-rolling-animation:nth-child(3) {
+  animation-delay:300ms;}
+.custom-rolling-animation:nth-child(4) {
+  animation-delay:450ms;}
+
+.custom-text-animation {
+  animation-name:textfade;
+  animation-duration:750ms;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count:1;
+  animation-fill-mode:forwards;
+  animation-direction:normal;
+  -moz-animation-name:textfade;
+  -moz-animation-duration:750ms;
+  -moz-animation-timing-function:ease-in-out;
+  -moz-animation-iteration-count:1;
+  -moz-animation-fill-mode:forwards;
+  -moz-animation-direction:normal;
+  -o-animation-name:textfade;
+  -o-animation-duration:750ms;
+  -o-animation-timing-function:ease-in-out;
+  -o-animation-iteration-count:1;
+  -o-animation-fill-mode:forwards;
+  -o-animation-direction:normal;
+  -webkit-animation-name:textfade;
+  -webkit-animation-duration:750ms;
+  -webkit-animation-timing-function:ease-in-out;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-direction:normal;
+}
+
+@keyframes textfade {
+  from{transform:translateY(10vh);opacity:0;}
+  to{transform:translateY(0);opacity:1;}
+}
+ 
+@keyframes rolling {
+  from{transform:translateX(25vw);opacity:0;}
+  to{transform:translateX(0);opacity:1;}
+}
+
+{% endstylesheet %}
+
+{% schema %}
+{
+    "name": "text med bild",
+    "settings": [
+        {
+            "type":"text",
+            "id": "header",
+            "label": "Rubrik"
+        },
+        {
+            "type": "richtext",
+            "id": "text",
+            "label": "Innehåll"
+        } 
+    ],
+    "blocks": [
+        {
+            "type": "image",
+            "name": "bild",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "images",
+                    "label": "välj bilder"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name":"Bild med text",
+            "category": "Custom"
+        }
+    ]
+}
+
+{% endschema %}

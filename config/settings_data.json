@@ -1,0 +1,1803 @@
+{
+  "current": {
+    "type_header_font": "cabin_n4",
+    "type_header_base_size": 26,
+    "type_base_font": "cabin_n4",
+    "social_twitter_link": "https:\/\/twitter.com\/pure_clean_food",
+    "social_facebook_link": "https:\/\/www.facebook.com\/SorgardenMala",
+    "social_instagram_link": "https:\/\/www.instagram.com\/sorgarden_mala\/",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCHG0JkAqVCpMgfdCOo-7pUA",
+    "favicon": "shopify:\/\/shop_images\/favicon.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Sorgarden_Mala_BW_Logo_JPG_UA.jpg",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "center",
+          "logo": "shopify:\/\/shop_images\/Sorgarden_Mala_BW_Logo_JPG_UA.jpg",
+          "logo_max_width": 125,
+          "main_linklist": "main-menu",
+          "message": true,
+          "home_page_only": true,
+          "message_text": "15 % rabatt för köp över 150 kr | Fri frakt över 500 kr",
+          "message_link": "shopify:\/\/collections\/all",
+          "color_bg": "#f8f6ed",
+          "color_text": "#000000"
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/bagaren.jpg",
+          "layout": "left",
+          "title": "NJUT AV UNIKA SMAKER",
+          "text": "<p>Mina unika produkter passar bra till grillen, ostbrickan och mycket annat.<\/p><p>Jag vill helt enkelt bjuda på unika smakupplevelser. Alla mina produkter görs på riktiga frukter och bär utan konstiga tillsatser. Och allt är ”härproducerat” – här i mitt eget kök på Sörgården Måla.<\/p><p>Så välkommen att inspireras av mina smaker och njut av livets goda. <\/p><p>Det gör jag. <\/p>",
+          "button_label": ""
+        }
+      },
+      "feature-columns": {
+        "type": "feature-columns",
+        "disabled": true,
+        "blocks": {
+          "feature-columns-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Lägg till en titel eller tagline",
+              "text": "<p>Dela blogginlägg, produkter eller kampanjer med dina kunder. Använd den här texten för att beskriva produkter, dela information om tillgänglighet och stil eller som ett utrymme för att visa senaste recensioner eller vanliga frågor.<\/p>",
+              "button_label": ""
+            }
+          },
+          "feature-columns-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Lägg till en titel eller tagline",
+              "text": "<p>Dela blogginlägg, produkter eller kampanjer med dina kunder. Använd den här texten för att beskriva produkter, dela information om tillgänglighet och stil eller som ett utrymme för att visa senaste recensioner eller vanliga frågor.<\/p>",
+              "button_label": ""
+            }
+          },
+          "feature-columns-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Lägg till en titel eller tagline",
+              "text": "<p>Dela blogginlägg, produkter eller kampanjer med dina kunder. Använd den här texten för att beskriva produkter, dela information om tillgänglighet och stil eller som ett utrymme för att visa senaste recensioner eller vanliga frågor.<\/p>",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "feature-columns-0",
+          "feature-columns-1",
+          "feature-columns-2"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "left"
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "disabled": true,
+        "settings": {
+          "title": "Utvald kollektion",
+          "collection": "",
+          "grid": 4,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "quotes": {
+        "type": "quotes",
+        "disabled": true,
+        "blocks": {
+          "quotes-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Lägg till kundrecensioner och berättelser för att visa upp din butiks nöjda kunder.<\/p>",
+              "author": "Författarens namn"
+            }
+          },
+          "quotes-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Lägg till kundrecensioner och berättelser för att visa upp din butiks nöjda kunder.<\/p>",
+              "author": "Författarens namn"
+            }
+          },
+          "quotes-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Lägg till kundrecensioner och berättelser för att visa upp din butiks nöjda kunder.<\/p>",
+              "author": "Författarens namn"
+            }
+          }
+        },
+        "block_order": [
+          "quotes-0",
+          "quotes-1",
+          "quotes-2"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "image-bar": {
+        "type": "image-bar",
+        "disabled": true,
+        "blocks": {
+          "image-bar-0": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
+          },
+          "image-bar-1": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
+          },
+          "image-bar-2": {
+            "type": "image",
+            "settings": {
+              "alignment": "center",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "image-bar-0",
+          "image-bar-1",
+          "image-bar-2"
+        ],
+        "settings": {
+          "section_height": "medium"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "aa437008-4450-4d25-9055-0bd60ee94ffb": {
+            "type": "link_list",
+            "settings": {
+              "title": "",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "aa437008-4450-4d25-9055-0bd60ee94ffb"
+        ],
+        "settings": {
+          "show_payment_icons": false,
+          "color_footer_bg": "#f6f6f6",
+          "color_footer_text": "#333232",
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "password-header": {
+        "type": "password-header",
+        "settings": {
+          "logo_max_width": 100,
+          "header": "Kommer snart"
+        }
+      },
+      "password-content": {
+        "type": "password-content",
+        "settings": {
+          "newsletter_enable": true,
+          "newsletter_form_heading": "Var den första som vet när vi kör igång.",
+          "newsletter_form_subheading": "<p>Kampanjer, nya produkter och försäljning. Direkt till din inkorg.<\/p>",
+          "newsletter_placeholder": "E-postadress",
+          "newsletter_button_text": "Meddela mig"
+        }
+      },
+      "password-footer": {
+        "type": "password-footer",
+        "settings": {
+          "show_share_buttons": true,
+          "social_message": "Sprid meddelandet"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": true,
+          "show_vendor": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": false,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "Du kanske också gillar",
+          "show_vendor": false
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": 3
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 4,
+          "rows": 3,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
+      },
+      "1605259676cc2e04f0": {
+        "type": "custom-newsletter",
+        "settings": {
+          "section_title": "Ta del av en smakfullare framtid med unika smaker",
+          "subheading": "<p>Få information om våra unika smakupplevelser genom berättelser, inspirerande tips och recept, tävlingar och praktiska tips om hur du kan njuta mer av god mat, goda ostar och det goda i livet<\/p>",
+          "show_background": false
+        }
+      },
+      "1605262925d55b1b69": {
+        "type": "instafeed",
+        "settings": {
+          "heading_font": "libre_baskerville_n4",
+          "heading_size": 20,
+          "feed_width": 90,
+          "html_area": ""
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "grid",
+          "blog_show_author": true,
+          "blog_show_date": true
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_author": true,
+          "blog_show_date": true,
+          "show_share_buttons": true
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": true
+        }
+      },
+      "1605271249d1964a8c": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/arneke_Sorgarden_Mala-1609.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "adapt",
+          "text_size": "medium",
+          "title": "",
+          "header": "Välkommen till Sörgården Måla",
+          "text": "<p>Upptäck våra unika smaker<\/p>",
+          "button_label": "Alla produkter",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "160528070399264869": {
+        "type": "custom-text-with-image",
+        "blocks": {
+          "c028e4ad-a35d-4d72-a81f-43600ab64889": {
+            "type": "image",
+            "settings": {
+              "images": "shopify:\/\/shop_images\/GT_16_1-star_de2d8897-3712-4cfe-817e-7913a5fffa5a.jpg"
+            }
+          },
+          "9ab0c4dd-f169-48ad-b20a-bd5b0a654a2c": {
+            "type": "image",
+            "settings": {
+              "images": "shopify:\/\/shop_images\/GT_16_2-star.jpg"
+            }
+          },
+          "1e4204d5-f5f5-4251-a0d2-89e599ab382f": {
+            "type": "image",
+            "settings": {
+              "images": "shopify:\/\/shop_images\/GT_17_1-star.jpg"
+            }
+          },
+          "e42ff06b-93c7-4972-bf59-7f7c7d13180e": {
+            "type": "image",
+            "settings": {
+              "images": "shopify:\/\/shop_images\/GT_19_1-star.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "c028e4ad-a35d-4d72-a81f-43600ab64889",
+          "9ab0c4dd-f169-48ad-b20a-bd5b0a654a2c",
+          "1e4204d5-f5f5-4251-a0d2-89e599ab382f",
+          "e42ff06b-93c7-4972-bf59-7f7c7d13180e"
+        ],
+        "settings": {
+          "header": "Unika smaker - flerfaldigt prisbelönta",
+          "text": "<p>Vi producerar efter principen, lite men gott. Allt görs för hand, vilket tar tid, men som vi på Sörgården Måla anser är nödvändigt. Vi anser att det måste få ta tid för att göra god mat.<\/p><p>Vi använder aldrig smakförstärkare, färgämnen, konserveringsmedel eller andra industriella substanser. Vi är ekologiskt certifierade.  Alla produkter baseras på förstklassiga, 100% naturliga råvaror, riktiga frukter och bär.<\/p><p>Produkter från Sörgården Måla har varit ett stående inslag på Nobelfesten sedan 2011. Många produkter har prisats för sin goda smak vid flera tillfällen och har rönt stora framgångar runt om i världen. <\/p><p>Läs mer om mina unika smaker <a href=\"\/pages\/mina-smaker\" title=\"Mina unika smaker\"><span style=\"text-decoration:underline\">här<\/span><\/a><\/p>"
+        }
+      },
+      "1605624153f4b8d810": {
+        "type": "custom-image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/bagaren.jpg",
+          "title": "Njut av unika smaker",
+          "text": "<p>Mina unika produkter passar bra till grillen, ostbrickan och mycket annat.<\/p><p>Jag vill helt enkelt bjuda på unika smakupplevelser. Alla mina produkter görs på riktiga frukter och bär utan konstiga tillsatser. Och allt är ”härproducerat” – här i mitt eget kök på Sörgården Måla.<\/p><p>Så välkommen att inspireras av mina smaker och njut av livets goda.<\/p><p>Det gör jag.<\/p>"
+        }
+      },
+      "custom-taste": {
+        "type": "custom-taste",
+        "blocks": {
+          "93eee84c-9b91-4c96-b8f4-c99ac413613b": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "text": "<p>När jag ska ta fram en ny smak går jag runt och lurar en hel del. Jag brukar säga att jag ”smakar mentalt” först, ibland tar jag också hjälp och provsmakar liknande produkter eller tittar på recept med liknande produkter. Plötsligt brukar lösningarna ramla ner, och när jag sedan har valt ut vissa kombinationer av ingredienser som har smakat gott i huvudet, då har det blivit dags för att experimentera vid spisen…<\/p><p>Ibland stöter jag på problem, som med de smaklösa blåbären eller den lama pepparroten, men då hittar jag oftast en lösning, t.ex. att tillsätta lavendel till blåbären eller låta bli att koka pepparroten. Det är just det där grubblandet och experimenterandet som jag gillar…<\/p><p>Naturligtvis avslöjar jag aldrig mina recept, men på burkarna och flaskorna kan du givetvis se vilka ingredienser som ingår. Dessutom är jag generös med serveringsförslag på alla förpackningar. Jag använder bara naturliga tillsatser, som förhöjer smaken. I slutändan handlar det sedan mest om en känsla för tillagning och proportioner. Och så har jag fått fram ytterligare en unik smak – förhoppningsvis en smak som även faller dig som kund i smaken! <\/p><p>Läs lite mer här<a href=\"https:\/\/www.sorgardenmala.se\/webshop\"> nedan <\/a>om några av de smaker som jag har tagit fram genom åren.<\/p>",
+              "image": "shopify:\/\/shop_images\/Marmeladkok_69bdb625-aa3e-49ef-8880-c73d8d59a877.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "93eee84c-9b91-4c96-b8f4-c99ac413613b"
+        ],
+        "settings": {
+          "page-header": "Mina smaker"
+        }
+      },
+      "custom-story": {
+        "type": "custom-story",
+        "blocks": {
+          "1f57ce73-e24f-4df0-918c-d332acd2809b": {
+            "type": "text",
+            "settings": {
+              "title": "MIN STORY",
+              "text": "<p><em>Det hela började för drygt 10 år sedan, hösten 2009.<\/em><\/p><p>Jag heter Håkan Bjernhagen och jag flyttade hit till Sörgården Måla i början av 2000-talet. Här fann jag mitt paradis i den vackra miljön vid Hjälmarens norra strand. Jag är en livsnjutare och det var hög tid att säga upp mig från min tjänst som säljare av IT-tjänster och istället förverkliga mina drömmar…<\/p><p>I denna vackra och inspirerande miljö och funderade på vad jag skulle ägna mig åt framöver. Jag har alltid varit intresserad av mat och matlagning – och goda smaker! På 1980-talet arbetade jag som kock och restaurangchef i Linköping och jag lärde mig tidigt att all mat blir som godast om man använder produkter av högsta kvalitet. Så nu gällde det bara att hitta en sådan produkt…<\/p><p>På gården har jag ett litet plommonträd som gav mycket frukt så medan jag grubblade på vad jag skulle göra med mitt liv kokade jag en plommonmarmelad. Det var mest på skoj, men faktum var att det blev min första produkt och som jag fortfarande har kvar i sortimentet. Året var 2009 och sedan dess har jag tagit fram många, många fler produkter, inte bara marmelader utan även senap, ketchup, såser och dip m.m. Och jag är hela tiden ute efter nya goda och unika smaker. <\/p><p>Så jag säger som amerikanen: To be continued… <\/p>",
+              "image": "shopify:\/\/shop_images\/arneke_Sorgarden_Mala-1455.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "1f57ce73-e24f-4df0-918c-d332acd2809b"
+        ],
+        "settings": {
+          "page-header": ""
+        }
+      },
+      "custom-unique": {
+        "type": "custom-unique",
+        "blocks": {
+          "3c29f7b7-6f01-4ca7-85a2-041473218e1a": {
+            "type": "text",
+            "settings": {
+              "title": "RAGNARÖK",
+              "text": "<p>Starka smaker är någonting som jag har börjat arbeta med på senare år genom sortimentet ”Chili Viking”. Min son utmanade mig att ta fram en riktigt stark chilisås och mitt svar blev:<strong> Ragnarök<\/strong>. Den är huvudsakligen gjord av Carolina Reaper, världens starkaste chilifrukt (omkring två miljoner på Scoville-skalan). Till denna lägger jag lite Dorset Naga och Habanero Big Sun samt lite örter och annat. För också få till en rik och lång smak rostar jag chilin. Tillsammans med den växande hettan hos Carolina Reaper ger detta en dynamisk smakupplevelse som inte bara bränner i munnen…<\/p><p>Ragnarök, ”Gudarnas skymning”, är jordens undergång i den fornnordiska mytologin och någon har beskrivit smaken av min chilisås ”som när Fenrisulven sliter sig fri från sina bojor och slukar solen”, en annan beskrev smaken ”som om Tor slår med sin hammare – inne i halsen”. Ett tredje smakomdöme löd: ”Det är som lokalbedövning – på ett bra sätt…” Smaka gärna själv, men var försiktig med doseringen – jordens undergång bör upplevas i lagoma doser… <\/p>",
+              "image": "shopify:\/\/shop_images\/Ragnarok_Extremt_het_front.jpg"
+            }
+          },
+          "ee6558b3-8c9c-4987-aecf-13d4816c71f8": {
+            "type": "text",
+            "settings": {
+              "title": "VALHALLS ELIXIR",
+              "text": "<p><strong>HABANEROSÅS: <br\/>TORS BLIXTRANDE BRYGD &amp; CHIPOTLESÅS: <br\/>FENJAS HETA RÖKDAGG<\/strong><\/p><p>Jorden kan ju inte gå under varje dag och för den som vill avstå Ragnarök, har jag två goda såser som min Habanerosås och Chipotlesås. För att kunna smaka båda dessa två goda chilisåser, har jag tagit fram presentförpackningen ”Valhalls Elixir”, Båda passar bra till grillningen när du vill lyxa till det lite extra. Då är du också i gott sällskap – 2016 serverades dessa båda såser på Nobelfesten…av Grillandslaget som bjöd på vickning…<\/p><p>Vad är det som gör smaker så fascinerande? Ta min Habanerosås ”Tors blixtrande brygd” som exempel. Den börjar som en söt upplevelse, ungefär som när Tor klädde ut sig till Freja för att lura jätten Trym. Därefter exploderar smakerna och landar tillslut i chilins hetta, som när Tor återfick sin hammare och dräpte Trym i ett enda slag…<\/p><p>Fenjas Heta Rökdagg, Fenja var en jättinna i den nordiska mytologin som arbetade i kvarnen Grotte. Precis som min Chipotlesås var hon stark och mustig, men inte alltid så lätt att tämja. Fast med rätt dosering har du här den perfekta grillsåsen – med både mexikansk chilihetta och fornnordisk honungssötman – förmodligen betydligt lättare att leva med än med Fenja…<\/p><p>Habanerosåsen passar bra till lite ljusare kött och grönsaker medan den rökigare Chipotlesåsen passar utmärkt till mörkare kött och rotsaker på grillen. <\/p>",
+              "image": "shopify:\/\/shop_images\/bild-removebg-preview.png"
+            }
+          },
+          "185ac773-db2e-4797-8256-74ae02851d53": {
+            "type": "text",
+            "settings": {
+              "title": "RÖDBETSKETCHUP",
+              "text": "<p>I Sverige är vi inte helt vana vid rödbetssmaken. Annat är det i Östeuropa. Där tillhör den en av favoritsmakerna. Det är min särbo, som är från Polen, som har öppnat mina smaklökar för rödbetan. Jag ville därför ta fram en god rödbetsketchup. Det är ursprungligen en judisk mattradition, men som används flitigt i hela Östeuropa. För att balansera den jordiga sötman från rödbetorna ville jag skapa lite sting i såsen. Jag bestämde mig därför att använda pepparrot. De första försöken misslyckades dock totalt. Visst gjorde rödbetorna jobbet, men jag saknade helt pepparrotens sting i såsen. Först kunde jag inte för mitt liv begripa varför. Jag hade ju ekologisk pepparrot av bästa märke direkt från min odlare och leverantör i Kungsbacka. Tillslut insåg jag i alla fall vad som var problemet: pepparroten kunde inte koka med de övriga ingredienserna – då dog den helt enkelt. När jag tillsatte den senare i processen fick jag däremot till det rätta stinget! Nu har jag en sås som jag är riktigt stolt över och vill du uppleva en verkligt unik smak då ska du välja min rödbetsketchup. Den passar utmärkt till varmkorven och skinkmackan, eller till kyckling- och fiskrätten. Ja, den passar till mycket – till rökt kött och fisk, till den mustiga grytan eller till en bit god ost. <\/p><p>Det är bara att välja och vraka – och våga smaka! <\/p>",
+              "image": "shopify:\/\/shop_images\/Rodbetsketchup_med_pepparrot_front.jpg"
+            }
+          },
+          "259417e0-c3da-425f-a3cc-bc820ae32038": {
+            "type": "text",
+            "settings": {
+              "title": "VILTKETCHUP",
+              "text": "<p>En sås behöver absolut inte vara stark för att vara mustig och smakrik. Min viltketchup, som är relativt ny i mitt sortiment, är ett lysande exempel på detta. Jag ville ta fram en sås som passade bra till smakrikt viltkött. Så jag började i vanlig ordning att ”smaka mentalt” i mitt huvud. Jag ville få fram smaker som kunde upplevas ungefär som en vandring in i urskogen – tänk dig en målning av John Bauer! Med otämjd vildhet och samtidigt lockande skönhet. Svarta vinbär och blåbär fick bli grunden, medan rönnbär och enbär blev kärnan i själva kryddningen. För att balansera och skapa en fyllig sås tillsatte jag även rårörsocker, vinäger, havssalt, svartpeppar, libbsticka, lagerblad, kanel och timjan. Och vips hade jag en smaksensation i min gryta – en trollbrygd som hämtad direkt från vildmarken! <\/p><p>Denna både lyxiga och jordnära ketchup tycker jag passar alldeles utmärkt till viltkött, men även till anka, kalkon, hamburgare eller köttbullar.  <\/p>",
+              "image": "shopify:\/\/shop_images\/bild2-removebg-preview.png"
+            }
+          }
+        },
+        "block_order": [
+          "3c29f7b7-6f01-4ca7-85a2-041473218e1a",
+          "ee6558b3-8c9c-4987-aecf-13d4816c71f8",
+          "185ac773-db2e-4797-8256-74ae02851d53",
+          "259417e0-c3da-425f-a3cc-bc820ae32038"
+        ],
+        "settings": {
+          "page-header": "Mina unika smaker jag tagit fram genom åren"
+        }
+      },
+      "custom-about-us": {
+        "type": "custom-about-us",
+        "blocks": {
+          "bfc5726e-0520-4779-871f-d5becc2ac192": {
+            "type": "text",
+            "settings": {
+              "title": "Om Sörgården Måla",
+              "text": "<p>Sörgården Måla är en gårdsbutik, återförsäljare och e-handel.<\/p><p>Gårdsbutiken ligger vid Hjälmarens strand, Arboga. Vi framställer goda, helt naturliga och unika smaker av <strong>marmelader, gourmetknäcke, senap, såser och vegan dip<\/strong>.<\/p><p>Jag säljer även mina produkter här på hemsidan och till återförsäljare i Sverige, Finland och Danmark.<\/p>",
+              "image": "shopify:\/\/shop_images\/arneke_Sorgarden_Mala-1448.jpg",
+              "layout": "half"
+            }
+          },
+          "a1319824-44d6-4694-87ab-52e185d1b176": {
+            "type": "text",
+            "settings": {
+              "title": "Info och kontakt",
+              "text": "<p><em><strong>Öppettider:<\/strong><\/em><\/p><p><strong>Vardagar 9:00–16:00, lör-sön 11- 16<\/strong><\/p><p>Lördagar erbjuder vi lite extra, som nybakat surdegsbröd eller något annat gott.<\/p><p>Vill ni komma någon annan tid är det bara att slå en signal i förväg. Jag är oftast hemma på gården - jag bor här och har också min produktion här – dessutom är det ju så att den här platsen lämnar jag ogärna.<\/p><p><em><strong>Adress:<\/strong><\/em><\/p><p>Sörgården Måla AB<br\/>Sörgården Måla<br\/>732 92 Arboga<br\/>Org.nr 556959-5050<\/p><p>Välkommen att hälsa på!<\/p><p><a href=\"https:\/\/www.google.se\/maps\/place\/S%C3%B6rg%C3%A5rden+M%C3%A5la\/@59.2824901,15.8581464,17z\/data=!3m1!4b1!4m5!3m4!1s0x465e9fae1c8c8d71:0xea67c865f22c54f!8m2!3d59.2824874!4d15.8603351?hl=sv\" title=\"Hitta hit\"><span style=\"text-decoration:underline\">Hitta hit<\/span><\/a><\/p><p><em><strong>Kontakt:<\/strong><\/em><\/p><p>Telefon : 070-549 8587<\/p><p>E-post: hakan@sorgardenmala.se<\/p><p>Eller fyll i formuläret <a href=\"\/pages\/kontakt\" title=\"Kontakt\"><span style=\"text-decoration:underline\">här<\/span><\/a><\/p>",
+              "image": "shopify:\/\/shop_images\/Karta_Mala.png",
+              "layout": "image-big"
+            }
+          },
+          "f76cc646-1492-472f-964d-90f3f9426b90": {
+            "type": "text",
+            "settings": {
+              "title": "Vision och idé",
+              "text": "<p>Unikt, ekologiskt, närodlat och högkvalitativt är viktiga ledord för verksamheten, i dess strävan efter nya goda spännande smaker.<\/p><p>Vi producerar efter principen, lite men gott. Allt görs för hand, vilket tar tid, men som vi på Sörgården Måla anser är nödvändigt. Vi anser att det måste få ta tid för att göra god mat.<\/p><p>Vi använder aldrig smakförstärkare, färgämnen, konserveringsmedel eller andra industriella substanser. Vi är ekologiskt certifierade.  Alla produkter baseras på förstklassiga, 100% naturliga råvaror, riktiga frukter och bär.<\/p>",
+              "layout": "half"
+            }
+          },
+          "c63e4aa1-a02b-460f-9e1d-1636fa90f403": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "text": "<p><em>Vi har genomfört ett utvecklingsprojekt, som delfinansierats från EU:s jordbruksfond för landsbygdsutveckling.<br\/>Vi har skapat en anpassad flexibel effektiv mobil småskalig produktionslösning för utveckling och produktion av unika mathantverksprodukter.<\/em><\/p>",
+              "image": "shopify:\/\/shop_images\/EU-flagga_Europeiska_jordbruksfonden_farg_1.jpg",
+              "layout": "text-big"
+            }
+          }
+        },
+        "block_order": [
+          "bfc5726e-0520-4779-871f-d5becc2ac192",
+          "a1319824-44d6-4694-87ab-52e185d1b176",
+          "f76cc646-1492-472f-964d-90f3f9426b90",
+          "c63e4aa1-a02b-460f-9e1d-1636fa90f403"
+        ],
+        "settings": {
+          "page-header": ""
+        }
+      },
+      "custom-shop": {
+        "type": "custom-shop",
+        "blocks": {
+          "7262dd5c-4b50-4923-90c9-bc3dd6ac0431": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/arneke_Sorgarden_Mala-1448.jpg"
+            }
+          },
+          "cb8947e6-19ea-462c-8e73-70c797a72ac2": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/arneke_Sorgarden_Mala-1450.jpg"
+            }
+          },
+          "ba3a685a-52e2-43ea-b3e2-1aab73de82ae": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/arneke_Sorgarden_Mala-1611.jpg"
+            }
+          },
+          "7f6384e0-ea9e-4a10-9f96-eeb68da24045": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/arneke_Sorgarden_Mala-1609.jpg"
+            }
+          },
+          "c5a73c6c-3822-41b3-a781-a27aa0fe8d5e": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_2842.jpg"
+            }
+          },
+          "e94f92f0-96f6-4216-85a9-9fbafe037785": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_2834.jpg"
+            }
+          },
+          "cc9d6f60-d802-4f32-8df7-4b17853db4a5": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_2838.jpg"
+            }
+          },
+          "8ecdeade-dad2-4658-8b37-00864e3d6e75": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_2839.jpg"
+            }
+          },
+          "78c566b1-768c-4529-a71f-3ff0bd2c7410": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Miljo_Mala.jpg"
+            }
+          },
+          "548bd653-bdee-4499-a083-0018b98d2118": {
+            "type": "text",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Karta_Mala.png"
+            }
+          }
+        },
+        "block_order": [
+          "7262dd5c-4b50-4923-90c9-bc3dd6ac0431",
+          "cb8947e6-19ea-462c-8e73-70c797a72ac2",
+          "ba3a685a-52e2-43ea-b3e2-1aab73de82ae",
+          "7f6384e0-ea9e-4a10-9f96-eeb68da24045",
+          "c5a73c6c-3822-41b3-a781-a27aa0fe8d5e",
+          "e94f92f0-96f6-4216-85a9-9fbafe037785",
+          "cc9d6f60-d802-4f32-8df7-4b17853db4a5",
+          "8ecdeade-dad2-4658-8b37-00864e3d6e75",
+          "78c566b1-768c-4529-a71f-3ff0bd2c7410",
+          "548bd653-bdee-4499-a083-0018b98d2118"
+        ],
+        "settings": {
+          "title": "Välkommen hem till mig!",
+          "hero": "shopify:\/\/shop_images\/arneke_Sorgarden_Mala-1461.jpg",
+          "paragraph": "<p><em>Välkommen hem till min gårdsbutik här på Sörgården Måla vid Hjälmarens norra strand – det är värt både en utflykt och en omväg.<\/em><\/p><p>Min gårdsbutik ligger i ladan här på min lilla gård, i det gamla svinstallet. Gården bildades och byggdes 1856 i samband att gården skiftades. Ladan byggdes runt sekelskiftet 1900, men gården som sådan har betydligt äldre anor. I min egen jordkällare under huset har man hitta fynd från 1500-talet! <\/p><p>Här i trakten är gården känd (eller snarare ökänd) som ”Klangens”, efter Hjalmar Klang som bodde här i många år. Det var en krutgubbe som var ökänd för att han var så ilsk, men han var också en mångsysslare som gjorde mycket här på gården. Bland annat byggde han båtar i vedbo’n och tog upp en lucka i väggen så att han skulle kunna tjuvjaga under tiden… <\/p><p>Men själv är jag varken ilsk eller skjuter från vedboden. Så känn er varmt välkomna till min gårdsbutik. Sortimentet är i grunden mina egna produkter, samma som jag säljer här på hemsidan, men dessutom erbjuder jag olika produkter som jag själv tycker om. Gärna lokalproducerade och ekologiska produkter som Sveriges godaste färskost från Sörfennsta Gårdsmejeri, ekologiskt mjöl från Kullens kvarn, Lycktäppans ekologiska rapsolja, ekologisk olivolja, ekologiska kryddblandningar från Änga Gård, honung från egen bigård, ägg från egna höns, praktiska köksredskap och andra produkter som jag vill erbjuda mina kunder.  <\/p><p><strong>Öppet vardagar 9:00–16:00, Lör 11-16<\/strong> <br\/>Lördagar erbjuder vi lite extra, som nybakat surdegsbröd eller något annat gott.<\/p><p>Vill ni komma någon annan tid är det bara att slå en signal i förväg. Jag är oftast hemma på gården - jag bor här och har också min produktion här – dessutom är det ju så att den här platsen lämnar jag ogärna.<\/p><p>Välkommen att hälsa på!<\/p><p><a href=\"https:\/\/www.google.se\/maps\/place\/S%C3%B6rg%C3%A5rden+M%C3%A5la\/@59.2824901,15.8581464,17z\/data=!3m1!4b1!4m5!3m4!1s0x465e9fae1c8c8d71:0xea67c865f22c54f!8m2!3d59.2824874!4d15.8603351?hl=sv\"><span style=\"text-decoration:underline\">Hitta hit<\/span><\/a><\/p>"
+        }
+      },
+      "custom-retailer": {
+        "type": "custom-retailer",
+        "blocks": {
+          "a4fda4eb-2504-4891-ad15-2d8e682cb238": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/S%C3%B6derhallarna\/@59.3145025,18.0686536,17z\/data=!3m1!4b1!4m5!3m4!1s0x465f77fa99347b1f:0x5e22bcdf5dd5b8c4!8m2!3d59.3144998!4d18.0708423",
+              "title": "Södercheesen",
+              "street": "Södermalms Saluhall",
+              "zip": "118 72, Stockholm",
+              "tel": "08 - 642 10 21",
+              "tag": "söderhallarna"
+            }
+          },
+          "65b1f59e-109d-488d-bd44-7802911b137d": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/%C3%84ngby+torg+8",
+              "title": "Lilla Delikatessboden",
+              "street": "Ängby Torg 8",
+              "zip": "168 56, Bromma",
+              "tel": "08-87 05 45",
+              "tag": ""
+            }
+          },
+          "40a161ee-af90-4fa7-99fd-2ffb52a4453c": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Odengatan+33",
+              "title": "Ostbutiken Odengatan",
+              "street": "Odengatan 33",
+              "zip": "113 15, Stockholm",
+              "tel": "08 - 545 913 40",
+              "tag": "Odenplan Sibirien"
+            }
+          },
+          "886f5769-25e1-47f8-8118-3f5d86ccb95d": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Karlaplan+13,+115+20+Stockholm\/@59.3391251,18.0887945,17z\/data=!3m1!4b1!4m5!3m4!1s0x465f9d4f0350d2ed:0x809d5a6f1baacc2c!8m2!3d59.3391224!4d18.0909831",
+              "title": "Sabis  Fältöversten Ostrummet",
+              "street": "Karlaplan 13",
+              "zip": "115 20, Stockholm",
+              "tel": "08-545 856 65",
+              "tag": "Östermalm"
+            }
+          },
+          "69799cd3-fe5f-49bf-841c-9f3ad05edff7": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/H%C3%B6gdalsg%C3%A5ngen+16,+124+54+Bandhagen\/@59.2647355,17.984508,12.71z\/data=!4m5!3m4!1s0x465f77614603f5bd:0xbe60053b5fcc9351!8m2!3d59.2636051!4d18.0420597",
+              "title": "Listams Fisk & Delikatesser AB",
+              "street": "Högdalsgången 16",
+              "zip": "124 54, Bandhagen",
+              "tel": "08-99 50 22",
+              "tag": "Enskede Årsta Farsta Örby Högdalen Svedmyra"
+            }
+          },
+          "77bcd713-fa14-4314-91c9-085582448100": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/H%C3%B6torgshallen\/@59.3341694,18.0605839,17z\/data=!3m1!4b1!4m5!3m4!1s0x465f9d5f11c5eab7:0x80297d22a1290f2!8m2!3d59.3341667!4d18.0627779",
+              "title": "Fromageriet",
+              "street": "Hötorgshallen 32",
+              "zip": "111 57, Stockholm",
+              "tel": "08 - 20 05 96",
+              "tag": "Norrmalm Högtorget T-centralen Sergels"
+            }
+          },
+          "196738ee-c2ec-4be8-8e01-8e0610b5132c": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Sj%C3%B6dalstorget+5,+141+47+Huddinge\/@59.2135152,17.9645636,13.13z\/data=!4m5!3m4!1s0x465f70c914d1422b:0x3df17c407e2b53a6!8m2!3d59.2361516!4d17.982101",
+              "title": "Delikatessboden i Huddinge AB",
+              "street": "Sjödalstorget 5",
+              "zip": "141 47, Huddinge",
+              "tel": "08-524 555 40",
+              "tag": "flemingsberg stuvsta"
+            }
+          },
+          "0a519802-7a83-4b4e-9acd-1c0b5e7e3c17": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Strandall%C3%A9n+4,+135+61+Tyres%C3%B6\/@59.2634394,18.2629297,8.96z\/data=!4m5!3m4!1s0x465f7efe818ea239:0x7169783100142ed0!8m2!3d59.245772!4d18.2746103",
+              "title": "Delikatessboden i Tyresö",
+              "street": "Strandallén 4",
+              "zip": "135 61, Tyresö",
+              "tel": "072-747 37 57",
+              "tag": "Bollmora"
+            }
+          },
+          "9f28f983-154b-44ae-b57c-f221bad48555": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/%C3%84ngby+torg+8,+168+56+Bromma\/@59.3452864,17.9033414,14.21z\/data=!4m5!3m4!1s0x465f75f53218969d:0xa4d61d9da3172320!8m2!3d59.3471709!4d17.9077837",
+              "title": "Lilla Delikatessboden",
+              "street": "Ängby Torg 8",
+              "zip": "168 56, Bromma",
+              "tel": "08-87 05 45",
+              "tag": ""
+            }
+          },
+          "7c428375-4b02-4f77-9650-853b64b48252": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Bergsgatan+24,+112+23+Stockholm\/@59.329668,18.0441259,17z\/data=!3m1!4b1!4m5!3m4!1s0x465f9d620a8ded53:0xcda56d68226e60d6!8m2!3d59.3296653!4d18.0463145",
+              "title": "Wijnjas Grosshandel AB",
+              "street": "Bergsgatan 24",
+              "zip": "112 23, Stockholm",
+              "tel": "08-13 14 25",
+              "tag": "kungsholmen rådhuset t-centralen vasaplan"
+            }
+          },
+          "b994c9b0-a0d4-46b1-9afe-d6cb40e5fb7b": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Hornsgatan+39A,+118+49+Stockholm\/@59.3184154,18.0575852,17z\/data=!3m1!4b1!4m5!3m4!1s0x465f77e67c9a660b:0x7725e5fb748c50b0!8m2!3d59.3184127!4d18.0597739",
+              "title": "Gamla Amsterdam",
+              "street": "Hornsgatan 39A",
+              "zip": "118 49, Stockholm",
+              "tel": "073-342 3721",
+              "tag": "södermalm mariatorget  hornstull"
+            }
+          },
+          "c11effd8-bed2-48bd-8735-6654042a1bb2": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/GAMLA+STR%C3%84NGN%C3%84SV%C3%84GEN+341,+155+91+Nykvarn\/@59.1966557,17.4355402,17z\/data=!3m1!4b1!4m5!3m4!1s0x465f11b41534a735:0x607b4037217c1655!8m2!3d59.196653!4d17.4377289",
+              "title": "Mångfaldens Hus",
+              "street": "Gamla Strängnäsvägen 341",
+              "zip": "155 91, Nykvarn",
+              "tel": "08-552 4052",
+              "tag": "södertälje"
+            }
+          },
+          "d8a93d7e-9cdb-4e56-baca-09e0e9110406": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/KARLTOMTAV%C3%84GEN+2,+197+93+Bro\/@59.5992716,17.6232085,17z\/data=!3m1!4b1!4m5!3m4!1s0x465fb00c425dd531:0x6db0eaf15b4f18be!8m2!3d59.5992689!4d17.6253972",
+              "title": "Kvarnnibble Gård",
+              "street": "Karltomtavägen 2",
+              "zip": "197 93, Bro",
+              "tel": "0733-210815",
+              "tag": "bålsta märsta"
+            }
+          },
+          "d0e1232e-ecff-453a-9d05-68e826ba2ea0": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Sj%C3%B6viksv%C3%A4gen+51,+117+58+Stockholm\/@59.3066268,18.02934,17z\/data=!3m1!4b1!4m5!3m4!1s0x465f77bf4b2c8043:0xa02157fa3a4f4c1c!8m2!3d59.3066241!4d18.0315288",
+              "title": "SoftHoney",
+              "street": "Sjöviksvägen 51",
+              "zip": "117 58, Stockholm",
+              "tel": "070-324 0906",
+              "tag": "hornstull liljeholmen årsta södermalm"
+            }
+          },
+          "e592ed66-399e-4aed-bb7d-00e585a40b40": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/H%C3%96KERIET\/@59.5938914,18.0961418,17z\/data=!3m1!4b1!4m5!3m4!1s0x465f96bc8e9e649f:0x70f82a4b7698d921!8m2!3d59.5938887!4d18.0983305",
+              "title": "Hökeriet Nelzén AB",
+              "street": "Orkesta-Granby",
+              "zip": "186 94, Vallentuna",
+              "tel": "08-6123005",
+              "tag": ""
+            }
+          },
+          "3d1871de-15b4-4feb-ab59-31ca4646c854": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/search\/Ny%C3%A4ngsv%C3%A4gen+3,+Tullinge\/@59.2760783,17.1526206,9.17z",
+              "title": "Auntie inredning & presenter",
+              "street": "Nyängsvägen 3",
+              "zip": "146 30, Tullinge",
+              "tel": "073-599 90 41",
+              "tag": "flemingsberg tumba"
+            }
+          },
+          "e9d1a858-d78f-40e1-aebb-820022952a46": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/VASSUNDAV%C3%84GEN+243,+193+91+Sigtuna\/@59.6606979,17.686671,17z\/data=!3m1!4b1!4m5!3m4!1s0x465fba01262c1cad:0xbf394c98b6ce64d4!8m2!3d59.6606952!4d17.6888597",
+              "title": "Österby Gård",
+              "street": "Vassundavägen 243",
+              "zip": "193 91, Sigtuna",
+              "tel": "073-599 6828",
+              "tag": ""
+            }
+          }
+        },
+        "block_order": [
+          "a4fda4eb-2504-4891-ad15-2d8e682cb238",
+          "65b1f59e-109d-488d-bd44-7802911b137d",
+          "40a161ee-af90-4fa7-99fd-2ffb52a4453c",
+          "886f5769-25e1-47f8-8118-3f5d86ccb95d",
+          "69799cd3-fe5f-49bf-841c-9f3ad05edff7",
+          "77bcd713-fa14-4314-91c9-085582448100",
+          "196738ee-c2ec-4be8-8e01-8e0610b5132c",
+          "0a519802-7a83-4b4e-9acd-1c0b5e7e3c17",
+          "9f28f983-154b-44ae-b57c-f221bad48555",
+          "7c428375-4b02-4f77-9650-853b64b48252",
+          "b994c9b0-a0d4-46b1-9afe-d6cb40e5fb7b",
+          "c11effd8-bed2-48bd-8735-6654042a1bb2",
+          "d8a93d7e-9cdb-4e56-baca-09e0e9110406",
+          "d0e1232e-ecff-453a-9d05-68e826ba2ea0",
+          "e592ed66-399e-4aed-bb7d-00e585a40b40",
+          "3d1871de-15b4-4feb-ab59-31ca4646c854",
+          "e9d1a858-d78f-40e1-aebb-820022952a46"
+        ],
+        "settings": {
+          "header": "Stockholm"
+        }
+      },
+      "custom-retailer2": {
+        "type": "custom-retailer2",
+        "blocks": {
+          "c7487c81-faaf-43ba-960a-7cb20ef3c08d": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/J%C3%A4rntorgsgatan+3,+732+30+Arboga",
+              "title": "Anns Ost efterträdare i Arboga AB",
+              "street": "Järntorgsgatan 3",
+              "zip": "732 47, Arboga",
+              "tel": "073 - 705 8456",
+              "tag": ""
+            }
+          },
+          "3a5be0b2-b797-4df1-a6de-0a9caf9d39fb": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/V%C3%A4stra+Storgatan+3,+611+31+Nyk%C3%B6ping\/@58.7432555,16.9179194,11.75z\/data=!4m5!3m4!1s0x465f2d6d777ae551:0xff745910f6c67ba9!8m2!3d58.7513462!4d17.0017393",
+              "title": "Bönornas Delikatesser AB",
+              "street": "Västra Storgatan 3",
+              "zip": "611 31, Nyköping",
+              "tel": "0155-21 44 40",
+              "tag": ""
+            }
+          },
+          "36e3ffc4-55e4-4108-9442-869a3f231a26": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Smedby+326,+732+96+Arboga\/@59.4847683,15.7050958,17z\/data=!3m1!4b1!4m5!3m4!1s0x465c2f0fa2921547:0xc49a751e2e66072a!8m2!3d59.4847656!4d15.7072844",
+              "title": "Smedby Gårdsbutik",
+              "street": "Smedby 326",
+              "zip": "732 96, Arboga",
+              "tel": "070-254 3688",
+              "tag": ""
+            }
+          },
+          "683e272b-9ce9-4674-acd1-61bcbf8cca11": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/%C3%85sby+10,+734+91+Hallstahammar\/@59.6122534,16.2009753,17z\/data=!3m1!4b1!4m5!3m4!1s0x465e7dc597921bd5:0xbe67a0e12c16717!8m2!3d59.6122507!4d16.203164",
+              "title": "Åsby Kött & Vilt",
+              "street": "Åsby 10",
+              "zip": "734 91, Hallstahammar",
+              "tel": "0220-10041",
+              "tag": ""
+            }
+          },
+          "1ab38514-d65d-4ff8-a3c8-dae8f3f2e15e": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Gjutm%C3%A4starbacken+1,+648+31+H%C3%A4lleforsn%C3%A4s",
+              "title": "Jürss Mejeri AB",
+              "street": "Gjutmästarbacken 1",
+              "zip": "648 31, Hälleforsnäs",
+              "tel": "0157 - 14110",
+              "tag": ""
+            }
+          },
+          "dae06f6e-f358-4723-b1e1-cc3f75d8a234": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/K%C3%B6pmangatan+1,+702+10+%C3%96rebro\/@59.2546553,15.2620171,11z\/data=!4m5!3m4!1s0x465c14e24518c03d:0xcc02f076f5ae9fa5!8m2!3d59.2727032!4d15.2139037",
+              "title": "Tehuset i Örebro AB",
+              "street": "Köpmang. 1",
+              "zip": "702 10, Örebro",
+              "tel": "019-179400",
+              "tag": ""
+            }
+          },
+          "e38751c9-25a5-4308-9d60-8077de0c2df4": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.com\/maps\/place\/Smakrummet\/@62.399431,17.2974,16z\/data=!4m5!3m4!1s0x0:0x90f5ba8ce7fad619!8m2!3d62.399431!4d17.2973997?hl=sv",
+              "title": "Smakrummet",
+              "street": "Gustav Adolfsvägen 18, Norra Stadsberget, Sundsvalls Stadspark",
+              "zip": "856 40, Sundsvalls",
+              "tel": "060-61 65 79",
+              "tag": ""
+            }
+          },
+          "e50d4471-657a-453a-9d00-40c692e3e898": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Styrbj%C3%B6rnsgatan+16,+753+35+Uppsala\/@59.8746196,17.6261314,17z\/data=!3m1!4b1!4m5!3m4!1s0x465fcc72fbeab1f1:0xb3a89cf21eb1e7b3!8m2!3d59.8746169!4d17.62832",
+              "title": "Svenska Delikatesser",
+              "street": "Styrbjörnsgatan 16",
+              "zip": "753 35, Uppsala",
+              "tel": "070-148 77 49",
+              "tag": ""
+            }
+          },
+          "069ed302-910f-4f10-848e-73cdb095de7c": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Travarbo+G%C3%A5rdsbutik+%26+Vilt\/@59.4756766,15.7907466,17z\/data=!3m1!4b1!4m5!3m4!1s0x465c28c4c9c59d97:0xd2a405212b7b4139!8m2!3d59.4756739!4d15.7929405",
+              "title": "Travarbo Gårdsbutik & Vilt",
+              "street": "Travarbo",
+              "zip": "732 96, Arboga",
+              "tel": "0589-660 164",
+              "tag": ""
+            }
+          },
+          "aa3f9a10-bf02-4eda-b256-01d4820d217c": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Ludvigsbergsv%C3%A4gen+16,+818+31+Valbo\/@60.6482223,17.0102862,17z\/data=!3m1!4b1!4m5!3m4!1s0x4660c842234c0b3f:0xd2bf1b24278dc464!8m2!3d60.6482197!4d17.0124802",
+              "title": "Dilén Detaljhandel AB",
+              "street": "Ludvigsbergsvägen 16",
+              "zip": "818 31, Valbo",
+              "tel": "026-13 03 35",
+              "tag": ""
+            }
+          },
+          "52765fa4-5ca3-47f4-bbaf-7db3e3df6d22": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/K%C3%B6pmangatan+48,+633+40+Eskilstuna\/@59.3678607,16.5172481,17z\/data=!3m1!4b1!4m5!3m4!1s0x465ef2b9c7077f95:0x3cf46f2723a279ec!8m2!3d59.367858!4d16.5194368",
+              "title": "Eskilstuna Delikatesshandel",
+              "street": "Köpmangatan 48",
+              "zip": "633 40, Eskilstuna",
+              "tel": "070-224 7089",
+              "tag": ""
+            }
+          },
+          "9129b404-0328-41a7-94d6-00db48e5a85b": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Kungsgatan+36,+711+30+Lindesberg\/@59.593071,15.2229144,17z\/data=!3m1!4b1!4m5!3m4!1s0x465c495adcbfea4b:0x9c8403fe3f3b51b6!8m2!3d59.5930683!4d15.2251031",
+              "title": "Lyckoklövern",
+              "street": "Kungsgatan 36",
+              "zip": "711 30, Lindesberg",
+              "tel": "0581-807 00",
+              "tag": ""
+            }
+          },
+          "03907233-74cb-4e24-bcca-ed4b8f4b0a7b": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Herrg%C3%A5rden+i+Grythyttan\/@59.704747,14.5474005,17z\/data=!3m1!4b1!4m8!3m7!1s0x465cfd4c3c71380d:0xb0f37b222c25330c!5m2!4m1!1i2!8m2!3d59.7047443!4d14.5495892",
+              "title": "Herrgården i Grythyttan",
+              "street": "Grythytte gård",
+              "zip": "712 60, Grythyttan",
+              "tel": "070 587 00 00",
+              "tag": ""
+            }
+          },
+          "b48230d9-a68c-437c-a1fb-b5e08fd993f6": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/UKN%C3%96+101,+731+97+K%C3%B6ping\/@59.4442219,16.0044174,17z\/data=!3m1!4b1!4m5!3m4!1s0x465e8310bb4085b1:0x42c6be93281c3281!8m2!3d59.4442192!4d16.0066061",
+              "title": "Ljungs Goa AB",
+              "street": "Uknö 101",
+              "zip": "731 97, Köping",
+              "tel": "0221-30088",
+              "tag": ""
+            }
+          },
+          "79a74f7e-3534-4cb2-9e48-483b25549e60": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/search\/Olssons+Magasin,+Glanshammar\/@59.1552087,13.7641343,8z",
+              "title": "Olssons Magasin",
+              "street": "Sjögesta 520",
+              "zip": "705 96, Glanshammar",
+              "tel": "070-57 331 57",
+              "tag": ""
+            }
+          },
+          "9d1d731e-a7bb-41cd-bc84-92f15317937b": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/search\/Slyte+223,+Lillkyrka\/@59.3349823,15.527685,17z",
+              "title": "Sörmans KöK",
+              "street": "Slyte 223",
+              "zip": "705 98, Lillkyrka",
+              "tel": "070-570 5749",
+              "tag": ""
+            }
+          },
+          "2a44f94d-d11a-476d-8399-a9ed0eea4d03": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/RYNNINGE+308,+710+41+Fellingsbro\/@59.4332683,15.4852463,17z\/data=!3m1!4b1!4m5!3m4!1s0x465c3a537655650f:0x753567f517d3763c!8m2!3d59.4332656!4d15.487435",
+              "title": "Lycktäppan",
+              "street": "Rynninge 308",
+              "zip": "732 72, Fellingsbro",
+              "tel": "0581-32020",
+              "tag": ""
+            }
+          },
+          "9d92cf6e-a7fd-4976-9a50-4a2e5fea03e4": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Barnhemsgatan+54,+731+33+K%C3%B6ping\/@59.5210275,15.9776483,18z\/data=!3m1!4b1!4m5!3m4!1s0x465e81f05a2c1a79:0xeb6f631c54cc5b90!8m2!3d59.5211761!4d15.9788063",
+              "title": "Café Gyllene Kannan",
+              "street": "Barnhemsgatan 54",
+              "zip": "731 33, Köping",
+              "tel": "072-183 64 40",
+              "tag": ""
+            }
+          },
+          "56219ff2-9541-4ef9-bd61-64528fac0ba1": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/search\/K%C3%A4llgatan+11,+Enk%C3%B6ping\/@59.3095682,16.7633269,8.79z",
+              "title": "Smak Ost & Chark",
+              "street": "Källgatan 11",
+              "zip": "745 31, Enköping",
+              "tel": "0171-274 90",
+              "tag": ""
+            }
+          },
+          "bba6a80b-8043-4b28-b74b-55b5e154f6e3": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Bergom+259,+864+91+Matfors\/@62.3383406,17.0861712,17z\/data=!3m1!4b1!4m5!3m4!1s0x46644353ae7a6193:0x7ed4be70407dc9a0!8m2!3d62.3383381!4d17.0883599",
+              "title": "Paradiset1",
+              "street": "Bergom 259",
+              "zip": "864 91, Matfors",
+              "tel": "070-641 26 98",
+              "tag": ""
+            }
+          },
+          "bb6214f4-d7e5-42ea-9e7d-ee4450ac6020": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Ringv%C3%A4gen+76,+731+33+K%C3%B6ping\/@59.522843,15.9723779,17z\/data=!3m1!4b1!4m5!3m4!1s0x465e81fabc302791:0x1f2f9b892f0886a9!8m2!3d59.5229896!4d15.9746572",
+              "title": "ICA Maxi Köping",
+              "street": "Ringvägen 76",
+              "zip": "731 33, Köping",
+              "tel": "0221-29623",
+              "tag": ""
+            }
+          },
+          "aaf91580-8b98-4812-8128-217704c7b3cf": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/search\/Hospitalsgatan+17,+Str%C3%A4ngn%C3%A4s\/@59.0484347,16.0033065,8z",
+              "title": "Den Lokala Maten",
+              "street": "Hospitalsgatan 17",
+              "zip": "645 30, Strängnäs",
+              "tel": "070-210 0808",
+              "tag": ""
+            }
+          },
+          "166667e0-044d-4737-b09f-92ca41c5bc27": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Holms%C3%A4tter+F%C3%A5rtallen+213,+732+97+Arboga\/@59.3516633,15.6634578,17z\/data=!3m1!4b1!4m5!3m4!1s0x465c23fa9cf1dedd:0x7cf218b59a778705!8m2!3d59.3516606!4d15.6656465",
+              "title": "Götlunda Glass",
+              "street": "Holmsäter Fårtallen 213",
+              "zip": "732 97, Arboga",
+              "tel": "070-4072842",
+              "tag": ""
+            }
+          },
+          "1d5cf782-e1b1-4186-8877-718f2ee37973": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Bygatan+6,+736+36+Kungs%C3%B6r\/@59.4241939,16.118908,17z\/data=!3m1!4b1!4m5!3m4!1s0x465e84e747c55637:0x917b90123b10c1cd!8m2!3d59.4241912!4d16.1210967",
+              "title": "Villa Wingarhed AB",
+              "street": "Bygatan 6",
+              "zip": "736 36, Kungsör",
+              "tel": "070-341 4643",
+              "tag": ""
+            }
+          },
+          "112c9b37-db45-42ee-88c8-fa75a3557109": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Stora+Gatan+14,+731+30+K%C3%B6ping\/@59.5134653,15.9954982,17z\/data=!3m1!4b1!4m5!3m4!1s0x465e818bbf327a55:0x98f6050914e7c3cb!8m2!3d59.5134626!4d15.9976922",
+              "title": "Hatz Deli",
+              "street": "Stora gatan 14",
+              "zip": "731 30, Köping",
+              "tel": "0221-77 20 77",
+              "tag": ""
+            }
+          }
+        },
+        "block_order": [
+          "c7487c81-faaf-43ba-960a-7cb20ef3c08d",
+          "3a5be0b2-b797-4df1-a6de-0a9caf9d39fb",
+          "36e3ffc4-55e4-4108-9442-869a3f231a26",
+          "683e272b-9ce9-4674-acd1-61bcbf8cca11",
+          "1ab38514-d65d-4ff8-a3c8-dae8f3f2e15e",
+          "dae06f6e-f358-4723-b1e1-cc3f75d8a234",
+          "e38751c9-25a5-4308-9d60-8077de0c2df4",
+          "e50d4471-657a-453a-9d00-40c692e3e898",
+          "069ed302-910f-4f10-848e-73cdb095de7c",
+          "aa3f9a10-bf02-4eda-b256-01d4820d217c",
+          "52765fa4-5ca3-47f4-bbaf-7db3e3df6d22",
+          "9129b404-0328-41a7-94d6-00db48e5a85b",
+          "03907233-74cb-4e24-bcca-ed4b8f4b0a7b",
+          "b48230d9-a68c-437c-a1fb-b5e08fd993f6",
+          "79a74f7e-3534-4cb2-9e48-483b25549e60",
+          "9d1d731e-a7bb-41cd-bc84-92f15317937b",
+          "2a44f94d-d11a-476d-8399-a9ed0eea4d03",
+          "9d92cf6e-a7fd-4976-9a50-4a2e5fea03e4",
+          "56219ff2-9541-4ef9-bd61-64528fac0ba1",
+          "bba6a80b-8043-4b28-b74b-55b5e154f6e3",
+          "bb6214f4-d7e5-42ea-9e7d-ee4450ac6020",
+          "aaf91580-8b98-4812-8128-217704c7b3cf",
+          "166667e0-044d-4737-b09f-92ca41c5bc27",
+          "1d5cf782-e1b1-4186-8877-718f2ee37973",
+          "112c9b37-db45-42ee-88c8-fa75a3557109"
+        ],
+        "settings": {
+          "header": "Mellansverige"
+        }
+      },
+      "custom-retailer3": {
+        "type": "custom-retailer3",
+        "blocks": {
+          "fa8564d5-6d01-4342-8592-f5e06253058d": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/WALL%C3%89RS+PLATS+4,+621+56+Visby\/@57.6388863,18.2939303,17z\/data=!3m1!4b1!4m5!3m4!1s0x46f7aed5690c7e3b:0x1ac8e904c3e63a59!8m2!3d57.6388834!4d18.2961243",
+              "title": "Wisby Ost AB",
+              "street": "Wallérs plats 4",
+              "zip": "621 56, Visby",
+              "tel": "0706-184 153",
+              "tag": "gotland"
+            }
+          },
+          "5041b33b-d090-4cd6-a507-b5412fc543ae": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/search\/Sjunkar%C3%B6d+1399,+Vinsl%C3%B6v\/@56.1674573,12.4816333,7.75z",
+              "title": "Skånska Vilt AB",
+              "street": "Sjunkaröd 1399",
+              "zip": "288 90, Vinslöv",
+              "tel": "044-801 02",
+              "tag": ""
+            }
+          },
+          "ec7bf266-4a37-481f-abc2-2bf3d6eb2527": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Marknadsv%C3%A4gen+9,+260+36+%C3%96d%C3%A5kra-v%C3%A4la\/@56.0915317,12.7547911,17z\/data=!3m1!4b1!4m5!3m4!1s0x46522d78346cb139:0x58ca25d786133944!8m2!3d56.0915287!4d12.7569798",
+              "title": "Bengtsons Ost - Väla\/Helsingborg",
+              "street": "Marknadsvägen 9",
+              "zip": "260 36, Ödåkra-Väla",
+              "tel": "042-20 35 20",
+              "tag": ""
+            }
+          },
+          "ff8b9a37-12af-4bd4-b35e-ef5f79c1d68c": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Drottninggatan+8,+261+31+Landskrona\/@55.8683637,12.8274413,17z\/data=!3m1!4b1!4m5!3m4!1s0x4653b5c2befe35dd:0xa37326fb4ef90861!8m2!3d55.8683607!4d12.8296353",
+              "title": "Smakfullt",
+              "street": "Drottninggatan 8",
+              "zip": "261 31, Landskrona",
+              "tel": "070-332 33 85",
+              "tag": ""
+            }
+          },
+          "a7172910-0193-4446-8b25-1fa1f64155ae": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Marknadsv%C3%A4gen+7,+246+42+L%C3%B6ddek%C3%B6pinge\/@55.7072371,12.871966,10.25z\/data=!4m5!3m4!1s0x4653ba30e390fa5f:0xedaeed79d432d78a!8m2!3d55.7696248!4d12.9903262",
+              "title": "Bengtsons Ost - Löddeköping",
+              "street": "Marknadsvägen 7",
+              "zip": "246 42, Löddeköping",
+              "tel": "072-2419241",
+              "tag": ""
+            }
+          },
+          "8fadced9-d29a-4374-8377-585c349c9fcf": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Bataljonsgatan+5,+553+05+J%C3%B6nk%C3%B6ping\/@57.7720607,14.2035648,17z\/data=!3m1!4b1!4m5!3m4!1s0x465a6d7654016047:0x30bae037403f43fb!8m2!3d57.7720579!4d14.2057535",
+              "title": "Bengtsons Ost - Jönköping",
+              "street": "Bataljonsgatan 5",
+              "zip": "553 05, Jönköping",
+              "tel": "0730-889523",
+              "tag": ""
+            }
+          },
+          "c8be2d9b-df19-42c8-8fce-10fdb1063deb": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/S%C3%B6dra+F%C3%B6rstadsgatan+41,+211+46+Malm%C3%B6\/@55.5959715,13.0002315,17z\/data=!3m1!4b1!4m5!3m4!1s0x4653a15a0d19e35d:0x553633cffd74386a!8m2!3d55.5959685!4d13.0024202",
+              "title": "Bengtsons Ost - Malmö",
+              "street": "Södra Förstadsgatan 41",
+              "zip": "211 43,Malmö",
+              "tel": "040-6202101",
+              "tag": ""
+            }
+          },
+          "4f16e50d-0b4f-47c2-bd4c-35119183079f": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Edsgatan+14,+462+33+V%C3%A4nersborg\/@57.9249838,10.6795189,6.92z\/data=!4m5!3m4!1s0x464523ac0b6c4de9:0xad304032bdae9da0!8m2!3d58.3794798!4d12.3222909",
+              "title": "Osthallen Vänersborg",
+              "street": "Edsgatan 14",
+              "zip": "462 33, Vänersborg",
+              "tel": "0521 - 109 23",
+              "tag": "trollhättan"
+            }
+          },
+          "b7476cbd-418d-4353-8391-5b586ae3df56": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Corfitz-beck-friisgatan+5,+231+43+Trelleborg\/@55.3744594,13.1541031,17z\/data=!3m1!4b1!4m5!3m4!1s0x465371645890a0ef:0xaa2bd59e4a2fc138!8m2!3d55.3744564!4d13.1562917",
+              "title": "Krydderiet KummIn",
+              "street": "CB Friisgatan 5",
+              "zip": "231 43, Trelleborg",
+              "tel": "0410-440 11",
+              "tag": ""
+            }
+          },
+          "f742659c-dbc4-4d0c-b1e3-ed33d259b873": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Stora+Brogatan+26,+503+35+Bor%C3%A5s\/@57.0220439,11.0105511,7.08z\/data=!4m5!3m4!1s0x465aa0adfb3c3679:0x38093eb3c1daeb63!8m2!3d57.7207213!4d12.9407383",
+              "title": "Bergs Handelsbod AB",
+              "street": "Stora Brog. 26",
+              "zip": "503 30, Borås",
+              "tel": "033-41 33 60",
+              "tag": ""
+            }
+          },
+          "20f8b85b-c518-4a07-8e52-4919865e8e21": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Storgatan+42,+456+51+Sm%C3%B6gen\/@58.3587218,11.2296621,17z\/data=!3m1!4b1!4m5!3m4!1s0x4645bbe78eead0e5:0x55b10a55e3390a1a!8m2!3d58.358719!4d11.2318508",
+              "title": "Rutans Delikatesser",
+              "street": "Storgatan 42",
+              "zip": "456 51, Smögen",
+              "tel": "076-261 69 44",
+              "tag": ""
+            }
+          },
+          "e43b3bfb-6d45-47c2-b229-fa917008f743": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Kville+saluhall\/@57.7209869,11.9424571,17z\/data=!3m1!4b1!4m5!3m4!1s0x464ff4a8981c5037:0x923076517104db8!8m2!3d57.7209841!4d11.9446458",
+              "title": "Osthyveln",
+              "street": "Kville Saluhall",
+              "zip": "417 22, Göteborg",
+              "tel": "0707-209232",
+              "tag": ""
+            }
+          },
+          "23f8a538-31eb-4809-b296-cdf92f1b7897": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Stora+Saluhallen\/@57.703687,11.9659593,17z\/data=!3m1!4b1!4m5!3m4!1s0x464ff3659ce14635:0xa4d40f7f048d733c!8m2!3d57.7036842!4d11.9681533",
+              "title": "Ost-Anders",
+              "street": "Stora Saluhallen",
+              "zip": "411 10, Göteborg",
+              "tel": "031-711 21 02",
+              "tag": ""
+            }
+          },
+          "59450633-259d-4667-bd75-3f7cd58a2e0e": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/S%C3%B6nnertorpsv%C3%A4gen+111,+269+94+B%C3%A5stad\/@56.2544204,11.9365783,8z\/data=!4m5!3m4!1s0x46518569e976ea39:0x5238e69b8510d753!8m2!3d56.4236072!4d12.7336175",
+              "title": "Tant Grön - butiken på gården",
+              "street": "Sönnertorpsvägen 111",
+              "zip": "269 94, Båstad",
+              "tel": "0431-360039",
+              "tag": ""
+            }
+          },
+          "e15eab0c-ff78-4518-89f9-85bcbea26ad2": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Eskilsgatan+4,+341+30+Ljungby\/@56.8343625,13.9387585,17z\/data=!3m1!4b1!4m5!3m4!1s0x465127163e7a4699:0x9da08b8bb1f7aa16!8m2!3d56.8343596!4d13.9409525",
+              "title": "Lilla Skafferiet",
+              "street": "Eskilsgatan 4",
+              "zip": "341 30, Ljungby",
+              "tel": "0372 - 828 10",
+              "tag": ""
+            }
+          },
+          "838586e9-1707-402b-b121-a4fa1d98bb97": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Stora+%C3%96stergatan+20,+271+34+Ystad\/@55.4302317,13.8217027,17z\/data=!3m1!4b1!4m5!3m4!1s0x46547d5c91429157:0xc72aa80f1dfc781d!8m2!3d55.4302287!4d13.8238914",
+              "title": "Gourmet Hörnan",
+              "street": "Stora Östergatan 20",
+              "zip": "271 34, Ystad",
+              "tel": "0411-65 230",
+              "tag": ""
+            }
+          },
+          "ea015281-ce86-452f-bf41-9faf3c385482": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/K%C3%B6pmansgatan+6A,+263+38+H%C3%B6gan%C3%A4s\/@56.2016113,12.4996427,13.33z\/data=!4m5!3m4!1s0x46522670ef31e6c7:0xc7c0f7828310bf6d!8m2!3d56.2007173!4d12.5526974",
+              "title": "Ost & Delibaren",
+              "street": "Köpmangatan 6A",
+              "zip": "263 38, Höganäs",
+              "tel": "042-33 05 05",
+              "tag": ""
+            }
+          },
+          "3e1a1283-dbd2-4356-89d9-5c0f6bfa77cf": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Kl%C3%A4ckebergav%C3%A4gen+141,+395+90+Kalmar\/@56.7173983,16.2974769,17z\/data=!3m1!4b1!4m5!3m4!1s0x4657cfd61a0fe8d3:0xfb92a30f94eae769!8m2!3d56.7173954!4d16.2996656",
+              "title": "Västersläts gårdsbutik & café",
+              "street": "Kläckebergavägen 141",
+              "zip": "395 90, Kalmar",
+              "tel": "0480-47 80 83",
+              "tag": ""
+            }
+          },
+          "3799bd81-f046-431b-8cf3-6f842d6adf2e": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.ninasmat.se\/",
+              "title": "Ninas Mat - webshop",
+              "street": "https:\/\/www.ninasmat.se\/",
+              "zip": "256 59 Helsingborg",
+              "tel": "042-21 41 00",
+              "tag": ""
+            }
+          }
+        },
+        "block_order": [
+          "fa8564d5-6d01-4342-8592-f5e06253058d",
+          "5041b33b-d090-4cd6-a507-b5412fc543ae",
+          "ec7bf266-4a37-481f-abc2-2bf3d6eb2527",
+          "ff8b9a37-12af-4bd4-b35e-ef5f79c1d68c",
+          "a7172910-0193-4446-8b25-1fa1f64155ae",
+          "8fadced9-d29a-4374-8377-585c349c9fcf",
+          "c8be2d9b-df19-42c8-8fce-10fdb1063deb",
+          "4f16e50d-0b4f-47c2-bd4c-35119183079f",
+          "b7476cbd-418d-4353-8391-5b586ae3df56",
+          "f742659c-dbc4-4d0c-b1e3-ed33d259b873",
+          "20f8b85b-c518-4a07-8e52-4919865e8e21",
+          "e43b3bfb-6d45-47c2-b229-fa917008f743",
+          "23f8a538-31eb-4809-b296-cdf92f1b7897",
+          "59450633-259d-4667-bd75-3f7cd58a2e0e",
+          "e15eab0c-ff78-4518-89f9-85bcbea26ad2",
+          "838586e9-1707-402b-b121-a4fa1d98bb97",
+          "ea015281-ce86-452f-bf41-9faf3c385482",
+          "3e1a1283-dbd2-4356-89d9-5c0f6bfa77cf",
+          "3799bd81-f046-431b-8cf3-6f842d6adf2e"
+        ],
+        "settings": {
+          "header": "Södra Sverige"
+        }
+      },
+      "16069177445430e920": {
+        "type": "collection",
+        "settings": {
+          "title": "Vinterns värmande smaker",
+          "collection": "jul",
+          "grid": 4,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "custom-retailer4": {
+        "type": "custom-retailer4",
+        "blocks": {
+          "f0466f4c-6b8a-4415-aa32-01878d7075a6": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Valby+Langgade+53,+2500+K%C3%B8benhavn,+Danmark\/@55.6664864,12.513895,17z\/data=!3m1!4b1!4m5!3m4!1s0x46525392bf8fcfb7:0xc92e04429390f977!8m2!3d55.6664864!4d12.5160837",
+              "title": "VALBY OSTELAGER",
+              "street": "Valby Langgade 53",
+              "zip": "2500, København\/Danmark",
+              "tel": "45 36 30 11 82",
+              "tag": ""
+            }
+          },
+          "95745d97-d57e-42ea-a4ad-e595042d591f": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/S%C3%B8borg+Hovedgade+69A,+2860+S%C3%B8borg,+Danmark\/@55.7338617,12.5126702,17z\/data=!3m1!4b1!4m5!3m4!1s0x46525202c79e79cb:0x853a74852406cc82!8m2!3d55.7338617!4d12.5148589",
+              "title": "OSTEDELIKATESSEN V\/ KAASTRUP FLEMING",
+              "street": "Søborg Hovedgade 69A",
+              "zip": "2860, Søborg\/Danmark",
+              "tel": "0045 39 561 582",
+              "tag": ""
+            }
+          },
+          "dab5b192-f396-44e1-a1a6-722feda9edf9": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/Skomagergade+15,+4000+Roskilde,+Danmark\/@55.6407774,12.0761112,17z\/data=!3m1!4b1!4m5!3m4!1s0x46525fda6894681f:0x8f00eeb93bd7f67c!8m2!3d55.6407774!4d12.0782998",
+              "title": "CASEUS OST OG DELIKATESSER",
+              "street": "Skomagergade 1",
+              "zip": "4000, Roskilde\/Danmark",
+              "tel": "0045 44 21 64 30",
+              "tag": ""
+            }
+          },
+          "b901a91a-d397-478c-aa13-1e2c86680a49": {
+            "type": "text",
+            "settings": {
+              "link": "https:\/\/www.google.se\/maps\/place\/V%C3%A6rnedamsvej+9,+1819+Frederiksberg,+Danmark\/@55.6736403,12.5475529,17z\/data=!3m1!4b1!4m5!3m4!1s0x465253a0109799e9:0x705150a5433beb5f!8m2!3d55.6736403!4d12.5497415",
+              "title": "HELGES OST",
+              "street": "Værnedamsvej 9",
+              "zip": "1819, Frederiksberg C\/Danmark",
+              "tel": "0045-33244102",
+              "tag": ""
+            }
+          },
+          "0348299e-df9e-4aae-9865-84b338fd44e2": {
+            "type": "text",
+            "settings": {
+              "link": "http:\/\/www.foodpath.fi\/",
+              "title": "FOODPATH OY",
+              "street": "Vatajantie 7",
+              "zip": "45740 Kouvola, Finland",
+              "tel": "+358443083801",
+              "tag": ""
+            }
+          }
+        },
+        "block_order": [
+          "f0466f4c-6b8a-4415-aa32-01878d7075a6",
+          "95745d97-d57e-42ea-a4ad-e595042d591f",
+          "dab5b192-f396-44e1-a1a6-722feda9edf9",
+          "b901a91a-d397-478c-aa13-1e2c86680a49",
+          "0348299e-df9e-4aae-9865-84b338fd44e2"
+        ],
+        "settings": {
+          "header": "Utomlands"
+        }
+      }
+    },
+    "content_for_index": [
+      "1605271249d1964a8c",
+      "1605624153f4b8d810",
+      "16069177445430e920",
+      "160528070399264869",
+      "1605262925d55b1b69",
+      "1605259676cc2e04f0"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "hero-1": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "text_size": "large"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {}
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "grid": 4
+          }
+        },
+        "hero-2": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "footer-1": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        }
+      },
+      "content_for_index": [
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_vendor": false,
+            "show_share_buttons": true,
+            "media_size": "medium",
+            "enable_image_zoom": true,
+            "enable_video_looping": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {}
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {}
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "color_footer_bg": "#f8f8f8",
+            "color_footer_text": "#6d6d6d"
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}

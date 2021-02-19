@@ -1,0 +1,182 @@
+<div class="custom-iwt-container">
+    <div class="custom-iwt-image-wrapper">
+        <img class="custom-iwt-image" loading="lazy" src="{{ section.settings.image.src | img_url: 'master' }}" alt="{{ section.settings.image.alt }}"/>
+    </div>
+    <div class="custom-iwt-text-wrapper">
+        <h2 class="custom-iwt-header">{{ section.settings.title }}</h2>
+        <div class="custom-iwt-text">{{ section.settings.text }}</div>
+    </div>
+</div>
+
+{% javascript %}
+    const ele = document.getElementsByClassName('custom-iwt-container')[0]
+
+   	window.addEventListener('scroll', playIWTAnimation)
+
+    function playIWTAnimation() {
+        if(document.getElementsByClassName('custom-iwt-container')[0].getBoundingClientRect().top - window.innerHeight < -100) {
+            document.getElementsByClassName('custom-iwt-text-wrapper')[0].classList.add('custom-IWTcontainer-animation')
+            document.getElementsByClassName('custom-iwt-text')[0].classList.add('custom-IWTtext-animation')
+            document.getElementsByClassName('custom-iwt-header')[0].classList.add('custom-IWTtext-animation')
+            document.getElementsByClassName('custom-iwt-image-wrapper')[0].classList.add('custom-IWTimage-animation')
+        }
+    }
+{% endjavascript %}
+
+{% stylesheet %}
+
+.custom-iwt-container {
+   padding:0; 
+   display:block;}
+ 
+.custom-iwt-text-wrapper { 
+    background-color:#f3b04c;
+    background-color:#f8f6ed;
+    margin-left:0px;
+    margin-top:auto;
+    margin-bottom:0px;  
+    width:100%;
+    padding:3em 5%;
+    display:block;}
+ 
+.custom-iwt-image-wrapper {
+    overflow:hidden;
+    height:400px;
+	border-radius:50%;
+    width:min(100%, 400px);
+    transform:scale(0);
+    margin:0 auto 2em;}
+
+.custom-iwt-image {
+    width:100%;
+    transform:translateY(-16%);
+    vertical-align:middle;}
+ 
+.custom-iwt-header {
+    font-size:2em;
+    margin-bottom:1em;
+    text-transform:none;}
+
+.custom-iwt-text {
+    font-size:1.2em;
+    letter-spacing:1.3px;}
+
+.custom-iwt-text p{}
+@media only screen and (min-width: 1200px) { 
+    .custom-iwt-header {
+        font-size:1.5em;} 
+ 
+    .custom-iwt-text {
+        font-size:1em;} 
+
+    .custom-iwt-container { 
+        padding:4em 10%;
+        margin-bottom:4em;
+        display:flex;
+        position:relative;} 
+
+    .custom-iwt-text-wrapper {
+        transform:skewX(-45deg)translateX(75vw);
+        z-index:2;
+        padding:3em 4em;
+        margin-left:8em;
+        margin-top:auto;
+        margin-bottom:auto;
+        width:calc(60vw - 8em);
+        /*transition:all 450ms ease-out;*/
+        bottom:50%;
+        border-radius:5em;
+        left:calc(20vw + 10%);}
+        /*transform:skewX(0deg);*/
+        /* position: absolute; */
+        /* transform-origin: center center; */
+
+    .custom-iwt-image-wrapper {
+        transform:scale(0);
+        width:20vw;
+        margin:auto 0;
+        height:20vw;
+        border-radius:50%;}
+
+    .custom-iwt-image {
+        transform:translateY(-10%);}
+} 
+
+.custom-IWTcontainer-animation {
+    animation-name:containerAnimation;
+    animation-duration:750ms;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+    animation-direction:normal;
+}
+.custom-IWTimage-animation {
+    animation-name:imageAnimation;
+    animation-duration:750ms;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+    animation-direction:normal;
+}
+
+.custom-IWTtext-animation {
+    animation-name:textAnimation;
+    animation-duration:750ms;
+    animation-delay:800ms;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+    animation-direction:normal;
+}
+
+@keyframes containerAnimation {
+    0%{transform:skewX(-45deg)translateX(75vw);}
+    100%{transform:skewX(0)translateX(0);}
+}
+@keyframes imageAnimation {
+    0%{transform:scale(0);}
+    100%{transform:scale(1);}
+}
+
+/* @keyframes textAnimation {
+    0%{clip-path:circle(0);}
+    100%{clip-path:circle(100%);} */
+}
+@media only screen and (min-width: 1500px) { 
+    .custom-iwt-header {
+        font-size:2em;}
+
+    .custom-iwt-text {
+        font-size:1.2em;}
+}
+{% endstylesheet %}
+
+
+{% schema %}
+{
+    "name": "text med bild",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Välj bild"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Rubrik"
+        },
+        {
+            "type": "richtext",
+            "id": "text",
+            "label": "Innehåll"
+        }
+    ],
+    "presets":[
+        {
+            "name":"Text med bild",
+            "category": "Custom"
+        }
+    ]
+}
+{% endschema %}

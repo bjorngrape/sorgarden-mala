@@ -1,0 +1,119 @@
+<article role="table" class='taste-container'>
+    {% if section.settings.page-header != blank %}
+    <h1 class='taste-header'>{{ section.settings.page-header }}</h1>
+    {% endif %}
+    {% for block in section.blocks %}
+        <section role="row" class="taste-wrapper">
+            {% if block.settings.image.src %}
+            <div role="cell" class="taste-image-wrapper">
+              <img class="taste-image" src="{{ block.settings.image.src | img_url: '700x700' }}" alt="{{ block.settings.image.alt }}" />	
+            </div>
+            <div role="cell" class="taste-text-wrapper">
+            {% else %}
+            <div role="cell" class="taste-text-wrapperfull">
+            {% endif %}
+              {% if block.settings.title != blank %}
+                <h2 role="columnheader" class="taste-title">{{ block.settings.title }}</h2>
+              {% endif %}
+              <div role="contentinfo" class="taste-text">{{ block.settings.text }}</div>
+            </div>
+        </section>
+    {% endfor %}
+</article>
+  
+{% schema %}
+{
+    "name":"Mina smaker",
+    "settings": [
+    {
+        "type":"text",
+        "id":"page-header",
+        "label":"Rubrik för sidan!"
+    }
+    ],
+    "blocks": [
+        {
+        "type":"text",
+        "name":"smaker",
+        "settings": [
+            {
+                "type":"text",	
+                "id":"title",
+                "label":"Rubrik"
+            },		
+            {
+                "type":"richtext",
+                "id":"text",
+                "label":"Skriv text"
+            },
+            {
+                "type":"image_picker",
+                "id":"image",
+                "label":"Välj en bild"
+            }
+        ]
+        }
+    ] 
+}
+{% endschema %}
+  
+{% stylesheet %}  
+.taste-header {
+    text-transform:uppercase;
+    letter-spacing:1px;
+    text-align:center;
+    font-size:2em;} 
+
+.taste-image {
+    margin-left:auto;
+    margin-right:auto;
+    display:grid;}
+
+.taste-image-wrapper {
+    margin-bottom:2em;}
+
+.taste-wrapper { 
+    padding:2em 5%;
+    max-width:2000px;
+    margin:auto;}
+
+.taste-wrapper:nth-child(odd) {
+    background-color:#f8f6ed;
+    flex-flow:row-reverse;}	
+
+.taste-text-wrapper {
+    display:grid;
+    place-content:center;}
+
+.taste-title {
+    font-size:2.5em;
+    margin-bottom:1em;}
+ 
+.taste-text { 
+    font-size:1.2em;
+    line-height:1.8em;
+    letter-spacing:1px;}
+ 
+@media only screen and (min-width:1000px) {
+    .taste-header {
+        font-size:3em;}
+
+    .taste-wrapper { 
+        display:flex;
+        justify-content:center;
+        padding:2em 10%;}
+
+    .taste-image-wrapper {
+        max-width:30%;
+        margin-right:auto;
+        margin-left:0;}
+
+    .taste-text-wrapper {
+        width:65%;}  
+
+    .taste-wrapper:nth-child(odd) .taste-image-wrapper {
+        margin-right:0;
+        margin-left:auto;}
+}
+
+{% endstylesheet %}

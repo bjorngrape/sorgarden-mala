@@ -1,0 +1,39 @@
+<div class="custom-retail-search-bar">
+  <input class="custom-retail-search" placeholder="Sök efter återförsäljare" aria-label="Sök efter återförsäljare" oninput="searchRetailer(event)" type="text"/>
+</div>
+<div class="custom-retail-fullcontainer">
+    <div class="custom-retail-container">
+        {% section 'custom-retailer' %}
+    </div> 
+    <div class="custom-retail-container">
+        {% section 'custom-retailer2' %}
+    </div> 
+    <div class="custom-retail-container">
+        {% section 'custom-retailer3' %}
+    </div> 
+    <div class="custom-retail-container">
+        {% section 'custom-retailer4' %}
+    </div> 
+</div>
+
+<style>
+.main-content {
+  padding:0;
+}
+</style>
+
+<script>
+  function searchRetailer(e) {
+  	const searchValue = document.getElementsByClassName('custom-retail-search')[0].value.toLowerCase() 
+    const arrayWrapper = document.getElementsByClassName('custom-retail-text-wrapper')
+    
+    Array.from(arrayWrapper).forEach((e) => {
+      const title = e.children[0].innerHTML.toString().toLowerCase().includes(searchValue)
+      const street = e.children[1].innerHTML.toString().toLowerCase().includes(searchValue)
+      const zip = e.children[2].innerHTML.toString().toLowerCase().includes(searchValue)
+      const tags = e.dataset.tags.toLowerCase().includes(searchValue)
+      if(title || street || zip || tags) e.parentNode.classList.remove('hide')
+      else e.parentNode.classList.add('hide')
+    })
+  }
+</script>

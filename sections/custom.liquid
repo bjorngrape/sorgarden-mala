@@ -1,0 +1,88 @@
+<div class="custom-hero_wrapper">
+    <div class="custom-hero_image"></div>
+    <div class="custom-hero_container">
+        <h1 class="custom-hero_title">{{ section.settings.hero-text }}</h1>
+        <a href="{{ section.settings.hero-link}}" class="custom-hero_link"><div class="custom-hero_btn"><span class="custom-hero_text">{{section.settings.hero-btn-text}}</span></div></a>
+    </div>
+</div>
+
+<style>
+    .custom-hero_image {
+        background-image: url({{section.settings.hero-image | image_url: master}});
+        background-attachment: fixed;
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        position:absolute;
+        top:0; left:0;
+        width:100%;
+        filter: blur(0.5px) brightness(0.8);
+        background-position-y:bottom;
+    }
+    .custom-hero_wrapper {
+        position: relative;
+        height: 100vh;
+        display:grid;
+        place-items:center;
+        text-align:center;
+    }
+    .custom-hero_title {
+        font-weight: bold;
+        color:white;
+        margin-bottom: 25px;
+    }
+    .custom-hero_link {
+    }
+    .custom-hero_btn {
+        display: inline;
+        padding: 15px 30px;
+        font-size: 1.5em;
+        color:white;
+        background-color:rgb(255, 73, 73);
+        border-radius: 50px; 
+    }
+    .custom-hero_container
+    {
+        z-index:1;
+    } 
+</style>
+
+<script>
+   window.addEventListener("scroll", (e)=> { if(window.innerHeight - document.getElementsByClassName("custom-hero_image")[0].getBoundingClientRect().top > 0 )  document.getElementsByClassName("custom-hero_image")[0].style.backgroundPositionY =  -(0.05*this.pageYOffset) + "px"})
+</script>
+
+{% schema %} 
+{
+    "name": "Bild",
+    "settings": [
+        {
+            "type": "image_picker",
+            "id": "hero-image",
+            "label": "Välj bild"
+        },
+        {
+            "type": "text",
+            "id": "hero-text",
+            "label": "Välj text"
+        },
+        {
+            "type": "text",
+            "id": "hero-btn-text",
+            "label": "Välj text"
+        },
+        {
+            "type": "url",
+            "id": "hero-link",
+            "label": "Välj link"
+        }
+    ],
+    "presets": [
+        {
+            "name":"Stor bild",
+            "category":"image"
+        }
+    ]
+    
+}
+
+{% endschema %}

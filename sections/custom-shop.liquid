@@ -1,0 +1,151 @@
+<article class="custom-shop-container">
+    {% if section.settings.title != blank %}
+    <h1 class="custom-shop-header">{{section.settings.title}}</h1>
+    {%endif%}
+    {% if section.settings.hero.src %}
+    <div class="custom-shop-hero">
+        <img src="{{ section.settings.hero.src | img_url: '1000x1000' }}" alt="{{section.settings.hero.alt}}"/>
+    </div>
+    {% endif %}
+    <section class="custom-shop-text">{{section.settings.paragraph}}</section>
+    <section class="custom-shop-image-wrapper">
+        {% for block in section.blocks %}
+            {% if block.settings.image.src %}
+            <a href="#tab" aria-label="{% if block.settings.image.alt != blank %}{{block.settings.image.alt}}{%else%}bild från gårdsbutiken{%endif%}" onclick="displayImage(event)" class="custom-shop-image-link"> 
+                <img loading="lazy" class="custom-shop-image" src="{{ block.settings.image.src | img_url: 'medium' }}" alt="{{block.settings.image.alt}}"/>
+            </a>
+            {% endif %}
+        {% endfor %}
+    </section> 
+    <div onclick="closeImage()" class="custom-shop-popup">
+        <img class="custom-shop-popup-image" src="" alt=""/>
+        <a onclick="closeImage()" aria-label="Stäng pop-up bild" href="#tabclose" class="custom-shop-popup-close">&times;</a>
+    </div>
+</article>
+
+{% javascript %}
+    document.addEventListener("keyup", (e)=> e.key === "Escape" ? closeImage() : '')
+{% endjavascript %}
+
+{% stylesheet %}
+.custom-shop-popup-close {
+    position:absolute;
+    top:5%;
+    right:5%;
+    font-size:4em;}
+
+.custom-shop-image-link {
+    color:transparent;
+    background-color:transparent;
+    width:17%;
+    margin-bottom:2%;
+    display:flex;
+    overflow:hidden;}
+
+.custom-shop-image-link:focus .custom-shop-image, .custom-shop-image:hover{
+    transform: scale(1.1);}
+
+.custom-shop-header { 
+    text-align:center;
+    font-size:3em;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    margin-bottom:1em;}
+
+.custom-shop-hero {
+    margin-left:auto;
+    width:fit-content;
+    margin-right:auto;
+    padding-bottom:3em;}
+
+.custom-shop-text {
+    font-size:1.2em; 
+    line-height:1.5; 
+    letter-spacing:1px;
+    padding-bottom:3em;}
+
+.custom-shop-popup-image {
+    width:100%; 
+    margin-top:auto;
+    margin-bottom:auto;
+    vertical-align:middle;}
+
+.custom-shop-popup {
+    width:100%; 
+    position:fixed;
+    height:100vh;
+    background-color:#000000eb;
+    z-index:-1;
+    top:0;
+    left:0; 
+    display:grid;
+    opacity:0;
+    padding:0 20%; 
+    transition:opacity 250ms ease-in-out;}
+
+.custom-shop-container { 
+    padding:0 10%;  
+    max-width:1800px;
+    margin-left:auto;
+    margin-right:auto;}
+
+.custom-shop-image-wrapper {
+    width:100%; 
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;} 
+
+.custom-shop-image {
+    transition:all 250ms ease-out;}
+
+@media only screen and (max-width: 750px) {
+    .custom-shop-popup { 
+        padding:0 5%;}
+    
+    .custom-shop-container {  
+        padding: 0 5%;}
+
+    .custom-shop-header {
+        font-size:2em;}
+
+    .custom-shop-image-link {
+        width:49%;}
+}
+
+{% endstylesheet %}
+
+{% schema %}
+{
+    "name": "Min gårdsbutik",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Rubrik"
+        },
+        {
+            "type": "image_picker",
+            "id": "hero",
+            "label": "Välj bild"
+        },
+        { 
+            "type": "richtext",
+            "id": "paragraph",
+            "label": "Innehåll"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "text",
+            "name": "Bilder",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Välj en bild"
+                }
+            ]
+        }
+    ] 
+}
+{% endschema %}

@@ -1,0 +1,155 @@
+<article class='aboutus-container'>
+  {% if section.settings.page-header != blank %}    
+  <h1 class='aboutus-header'>{{ section.settings.page-header }}</h1>
+  {% endif %}  
+  {% for block in section.blocks %}
+      <section class="aboutus-wrapper {{block.settings.layout}}">
+          {% if block.settings.image.src %}
+          <div class="aboutus-image-wrapper">
+            <img class="aboutus-image" alt="om oss bild" src="{% if block.settings.layout == "image-big" %}{{ block.settings.image.src | img_url: '1000x1000' }}{%else%}{{ block.settings.image.src | img_url: '700x700' }}{%endif%}" />	
+          </div>
+          <div class="aboutus-text-wrapper">
+          {% else %}
+            <div class="aboutus-text-wrapperfull">
+          {% endif %}
+            {% if block.settings.title != blank %}
+            <h2 class="aboutus-title">{{ block.settings.title }}</h2>
+            {% endif %}
+            <div class="aboutus-text">{{ block.settings.text }}</div>
+          </div>
+      </section>
+  {% endfor %}
+</article>
+<style>
+.main-content{padding-top:0;}
+</style>
+
+{% schema %}
+{
+  "name": "aboutus section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "page-header",
+      "label": "Rubrik för sidan!"
+    }
+  ],
+  "blocks": [
+      {
+      "type": "text",
+      "name": "Om oss",
+      "settings": [
+        {
+            "type":"text",	
+            "id":"title",
+            "label": "Rubrik"
+        },		
+        {
+            "type": "richtext",
+            "id": "text",
+            "label": "Skriv text"
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Välj en bild"
+        },
+        {
+          "type": "select",
+          "id": "layout",
+          "options":[
+            {"value": "half", "label":"50/50"},
+            {"value": "image-big", "label":"75/25"},
+            {"value": "text-big", "label":"25/75"}
+          ],
+          "label": "Välj storlek på bild"
+        }
+      ]
+    }
+  ] 
+}
+{% endschema %}
+
+{% stylesheet %}
+
+.aboutus-header {
+    text-transform:uppercase;
+    letter-spacing:1px;
+    text-align:center;
+    font-size:2em;} 
+
+.aboutus-image {
+    margin-left:auto;
+    margin-right:auto;
+    display:grid;}
+
+.aboutus-image-wrapper {
+    margin-bottom:2em;}
+
+.aboutus-wrapper { 
+    padding:2em 5%;
+    max-width:2000px;
+    margin:auto;}
+
+.aboutus-wrapper:nth-child(odd) {
+    background-color:#f8f6ed;
+    flex-flow:row-reverse;}	
+
+.aboutus-text-wrapper {
+    display:grid;
+    place-content:center;}
+
+.aboutus-title {
+    font-size:2.5em;
+    margin-bottom:1em;}
+ 
+.aboutus-text { 
+    font-size:1.2em;
+    line-height:1.8em;
+    letter-spacing:1px;}
+ 
+@media only screen and (min-width:1000px) {
+  .aboutus-header {
+    font-size:3em;}
+
+  .aboutus-wrapper { 
+    display:flex;
+    justify-content:center;
+    padding:2em 10%;}
+
+  .aboutus-image-wrapper {
+    margin-right:auto;
+    margin-left:0;}
+
+  .aboutus-image {
+    width:100%;}
+
+  .aboutus-text-wrapper {
+    padding-right:0;
+    padding-left:2em;}
+
+  .half .aboutus-image-wrapper { 
+    width:50%}
+  .half .aboutus-text-wrapper {
+    width:50%;}
+
+  .image-big .aboutus-image-wrapper { 
+    width:60%}
+  .image-big .aboutus-text-wrapper {
+    width:40%;}
+
+  .text-big .aboutus-image-wrapper { 
+    width:15%}
+  .text-big .aboutus-text-wrapper {
+    width:85%;}
+
+  .aboutus-wrapper:nth-child(odd) .aboutus-text-wrapper {
+    padding-right:2em;
+    padding-left:0;}
+
+  .aboutus-wrapper:nth-child(odd) .aboutus-image-wrapper {
+    margin-right:0;
+    margin-left:auto;} 
+}
+
+{% endstylesheet %}

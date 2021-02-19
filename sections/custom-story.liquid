@@ -1,0 +1,129 @@
+<article role="table" class='story-container'>
+  {% if section.settings.page-header != blank %}
+  <h1 role="heading" class='story-header'>{{ section.settings.page-header }}</h1>
+  {% endif %}
+  {% for block in section.blocks %}
+    <section role="row" class="story-wrapper">
+        {% if block.settings.image.src %}
+        <div role="cell" class="story-image-wrapper">
+          <img class="story-image" src="{{ block.settings.image.src | img_url: '700x700' }}" alt="{{ block.settings.image.alt }}" />	
+        </div>
+        <div role="cell" class="story-text-wrapper">
+        {% else %}
+        <div role="cell" class="story-text-wrapperfull">
+        {% endif %}
+          {% if block.settings.title != blank %}
+          <h2 role="columnheader" class="story-title">{{ block.settings.title }}</h2>
+          {% endif %}
+          <div role="contentinfo" class="story-text">{{ block.settings.text }}</div>
+        </div>
+    </section>
+  {% endfor %}
+</article>
+
+<style>
+  .main-content {
+  padding-top:0;}
+  .site-footer {
+  margin-top:0;}
+</style>
+
+{% schema %}
+{
+    "name": "story section",
+    "settings": [ 
+    {
+        "type": "text",
+        "id": "page-header",
+        "label": "Rubrik för sidan!"
+    }
+    ],
+    "blocks": [
+        {
+        "type": "text",
+        "name": "Om oss",
+        "settings": [
+            {
+                "type": "text",	
+                "id": "title",
+                "label": "Rubrik"
+            },		
+            {
+                "type": "richtext",
+                "id": "text",
+                "label": "Skriv text"
+            },
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Välj en bild"
+            }
+            
+        ]
+        }
+    ] 
+}
+{% endschema %}
+  
+{% stylesheet %}  
+
+
+
+.story-header {
+  text-transform:uppercase;
+  letter-spacing:1px;
+  text-align:center;
+  font-size:2em;} 
+
+.story-image {
+  margin-left:auto;
+  margin-right:auto;
+  display:grid;}
+
+.story-image-wrapper {
+  margin-bottom:2em;}
+
+.story-wrapper { 
+  padding:2em 5%;
+  max-width:2000px;
+  margin:auto;}
+
+.story-wrapper:nth-child(odd) {
+  background-color:#f8f6ed;
+  flex-flow:row-reverse;}	
+
+.story-text-wrapper {
+  display:grid;
+  place-content:center;}
+
+.story-title {
+  font-size:2.5em;
+  margin-bottom:1em;}
+
+.story-text { 
+  font-size:1.2em;
+  line-height:1.8em;
+  letter-spacing:1px;}
+
+@media only screen and (min-width:1000px) {
+  .story-header {
+    font-size:3em;}
+
+  .story-wrapper { 
+    display:flex;
+    justify-content:center;
+    padding:2em 10%;}
+
+  .story-image-wrapper {
+    max-width:30%;
+    margin-right:auto;
+    margin-left:0;}
+
+  .story-text-wrapper {
+    width:65%;}  
+
+  .story-wrapper:nth-child(odd) .story-image-wrapper {
+    margin-right:0;
+    margin-left:auto;}
+}
+{% endstylesheet %}
