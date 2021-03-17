@@ -127,7 +127,8 @@
     <div class="grid__item site-footer__payment-icons">
       <span class="visually-hidden">{{ 'general.payment.method' | t }}</span>
       <ul class="payment-icons list--inline site-footer__icon-list">
-        {%- for type in shop.enabled_payment_types -%}
+        {% assign enabled_payment_types = 'visa,master,american_express,klarna,swish,apple_pay,google_pay' | remove: ' ' | split: ',' %}
+		{% for type in enabled_payment_types %}
           <li class="payment-icon">
             {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
           </li>

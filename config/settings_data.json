@@ -16,12 +16,12 @@
         "type": "header",
         "settings": {
           "align_logo": "center",
-          "logo": "shopify:\/\/shop_images\/Sorgarden_Mala_BW_Logo_JPG_UA.jpg",
+          "logo": "shopify:\/\/shop_images\/Logga.jpg",
           "logo_max_width": 125,
           "main_linklist": "main-menu",
           "message": true,
-          "home_page_only": true,
-          "message_text": "15 % rabatt för köp över 150 kr | Fri frakt över 500 kr",
+          "home_page_only": false,
+          "message_text": "15 % rabatt för köp över 150 kr |  Frakt 69 kr | Fri frakt över 500 kr",
           "message_link": "shopify:\/\/collections\/all",
           "color_bg": "#f8f6ed",
           "color_text": "#000000"
@@ -177,7 +177,7 @@
           "aa437008-4450-4d25-9055-0bd60ee94ffb"
         ],
         "settings": {
-          "show_payment_icons": false,
+          "show_payment_icons": true,
           "color_footer_bg": "#f6f6f6",
           "color_footer_text": "#333232",
           "show_locale_selector": true,
@@ -291,7 +291,7 @@
       "1605271249d1964a8c": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/arneke_Sorgarden_Mala-1609.jpg",
+          "image": "shopify:\/\/shop_images\/Betalning_df61a97d-43a5-4e7b-a39d-ce93bb1db385.png",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "adapt",
@@ -345,8 +345,8 @@
       "1605624153f4b8d810": {
         "type": "custom-image-with-text",
         "settings": {
-          "image": "shopify:\/\/shop_images\/bagaren.jpg",
-          "title": "Njut av unika smaker",
+          "image": "shopify:\/\/shop_images\/arneke_Sorgarden_Mala-1483.jpg",
+          "title": "Njut av mina unika smaker",
           "text": "<p>Mina unika produkter passar bra till grillen, ostbrickan och mycket annat.<\/p><p>Jag vill helt enkelt bjuda på unika smakupplevelser. Alla mina produkter görs på riktiga frukter och bär utan konstiga tillsatser. Och allt är ”härproducerat” – här i mitt eget kök på Sörgården Måla.<\/p><p>Så välkommen att inspireras av mina smaker och njut av livets goda.<\/p><p>Det gör jag.<\/p>"
         }
       },
@@ -441,7 +441,7 @@
             "type": "text",
             "settings": {
               "title": "Om Sörgården Måla",
-              "text": "<p>Sörgården Måla är en gårdsbutik, återförsäljare och e-handel.<\/p><p>Gårdsbutiken ligger vid Hjälmarens strand, Arboga. Vi framställer goda, helt naturliga och unika smaker av <strong>marmelader, gourmetknäcke, senap, såser och vegan dip<\/strong>.<\/p><p>Jag säljer även mina produkter här på hemsidan och till återförsäljare i Sverige, Finland och Danmark.<\/p>",
+              "text": "<p>Sörgården Måla är en gårdsbutik, återförsäljare och e-handel.<\/p><p>Gårdsbutiken ligger vid Hjälmarens strand, Arboga. Vi framställer goda, helt naturliga och unika smaker av <strong>marmelader, såser, senap, gourmetknäcke och vegan dip<\/strong>.<\/p><p>Jag säljer även mina produkter här på hemsidan och till återförsäljare i Sverige, Finland och Danmark.<\/p><p>I webbutiken kan ni betala med kort, Swish eller Klarna. <br\/>Ni kan beställa i webshopen och hämta i gårdsbutiken.<\/p>",
               "image": "shopify:\/\/shop_images\/arneke_Sorgarden_Mala-1448.jpg",
               "layout": "half"
             }

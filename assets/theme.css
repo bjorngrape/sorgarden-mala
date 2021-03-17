@@ -8016,6 +8016,7 @@ hr {
 
 .site-footer-item-center-vertically {
   padding-top: 7.5px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 750px) {

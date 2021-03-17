@@ -9,7 +9,7 @@
     <a href="/collections/all">Alla produkter</a>
     {% include 'icon-chevron-right' %}
       {% for collection in product.collections %}
-        {% unless collection.title == 'Alla produkter' %}
+        {% unless collection.title == 'Alla produkter' or collection.title == 'Kollektion för 12 % moms' %}
           <a href="{{ collection.url }}">{{ collection.title }}</a>
           {% break %}
         {% endunless %}
